@@ -3,7 +3,7 @@
   
 </div>
 
-<div id="badges">
+<div id="badges" align="center">
   <a href="[your-linkedin-URL](https://www.twitch.tv/ChezLondo_)">
     <img src="https://img.shields.io/twitch/status/ChezLondo_?style=social" alt="Twitch Badge"/>
   </a>
