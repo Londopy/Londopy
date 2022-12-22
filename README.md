@@ -17,8 +17,13 @@
     <img src="https://img.shields.io/reddit/user-karma/link/ChezLondo?style=social" alt="Reddit Badge"/>
   </a>
 </div>
+  
+<div id="profile" align="center">
+  <a href="[your-github-views](https://github.com/Londopy)">
+    <img src="https://komarev.com/ghpvc/?username=Londopy&style=flat-square&color=blue" alt=""/>
+  </a>
+</div>
 
-<img src="https://komarev.com/ghpvc/?username=Londopy&style=flat-square&color=blue" alt="" align="center"/>
 
 
 <!--
