@@ -67,6 +67,7 @@ I am a Python Developer <img src="https://user-images.githubusercontent.com/1091
   <img src="https://github.com/devicons/devicon/blob/master/icons/premierepro/premierepro-original.svg" title="Premiere Pro" alt="Premiere Pro" width="40" height="40"/>&nbsp;
   <img src="https://github.com/devicons/devicon/blob/master/icons/raspberrypi/raspberrypi-original.svg" title="Raspberry Pi" alt="Raspberry Pi" width="40" height="40"/>&nbsp;
   <img src="https://user-images.githubusercontent.com/109172537/209099262-ce8f93b0-72c7-4e5f-9130-6520a64911f0.png" title="Kali Linux" alt="Kali Linux" width="40" height="40"/>&nbsp;
+  <img src="https://user-images.githubusercontent.com/109172537/209103406-d4efd02f-840c-4ca3-9340-e3b98b03a05c.png" title="Wifite" alt="Wifite" width="40" height="40"/>&nbsp;
   <img src="https://github.com/devicons/devicon/blob/master/icons/linux/linux-original.svg" title="Linux" alt="Linux" width="40" height="40"/>&nbsp;
   <img src="https://github.com/devicons/devicon/blob/master/icons/heroku/heroku-original.svg" title="Heroku" alt="Heroku" width="40" height="40"/>&nbsp;
   <img src="https://user-images.githubusercontent.com/109172537/209098956-7de15e4b-084d-4804-b37a-087b3637390a.png" title="Sublime Text 3" alt="Sublime Text 3" width="40" height="40"/>&nbsp;
