@@ -2,7 +2,6 @@
   <img src="https://media.giphy.com/media/jdPMeyv9rn0hZHh8n9/giphy.gif" width="100"/>
   
 </div>
-<!--
 
 <div id="badges">
   <a href="[your-linkedin-URL](https://www.twitch.tv/ChezLondo_)">
@@ -19,6 +18,7 @@
   </a>
 </div>
 
+<!--
 **Londopy/Londopy** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
 Here are some ideas to get you started:
