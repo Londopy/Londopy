@@ -56,7 +56,9 @@ I am a Python Developer <img src="https://user-images.githubusercontent.com/1091
   <img src="https://github.com/devicons/devicon/blob/master/icons/python/python-original.svg" title="Python" alt="Python" width="40" height="40"/>&nbsp;
   <img src="https://user-images.githubusercontent.com/109172537/209096448-ad31d3be-eabf-46cf-9ca4-d348d37389cb.png" title="DiscordPy" alt="DiscordPy" width="40" height="40"/>&nbsp;
   <img src="https://user-images.githubusercontent.com/109172537/209099927-6be6fff1-629a-487b-93db-423424d179c7.png" title="Kivy" alt="Kivy" width="40" height="40"/>&nbsp;
+<!--
   <img src="https://user-images.githubusercontent.com/109172537/209100107-b710d11d-81bc-47d6-8dca-cbec49fcf24f.png" title="Feather" alt="Feather" width="40" height="40"/>&nbsp;
+<!-->
   <img src="https://github.com/devicons/devicon/blob/master/icons/swift/swift-original.svg" title="Swift" alt="Swift" width="40" height="40"/>&nbsp;
   <img src="https://github.com/devicons/devicon/blob/master/icons/maya/maya-original.svg" title="Maya" alt="Maya" width="40" height="40"/>&nbsp;
   <img src="https://user-images.githubusercontent.com/109172537/209099637-be2e9923-787d-42a7-b2f8-ba2efd1ee548.png" title="Auto CAD" alt="Auto CAD" width="40" height="40"/>&nbsp;
