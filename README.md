@@ -40,7 +40,7 @@
 
 I am a Python Developer <img src="https://user-images.githubusercontent.com/109172537/209091869-dbcb05cc-6fdd-47fc-a76b-a2cf5a18139b.png" width="20"> from California <img src="https://user-images.githubusercontent.com/109172537/209092922-c2ef01b0-34c5-41b1-b0ab-4f87f5a93fb7.png" width="25">
 
-- :telescope: I’m working for an enternship to JPL and I am working on a couple Python projects that primarly involve facial recognition.
+- :telescope: I’m working for an internship to JPL and I am working on a couple Python projects that primarly involve facial recognition.
 
 - :seedling: Exploring machine learning and neural networks.
 
