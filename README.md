@@ -42,6 +42,8 @@ I am a Python Developer <img src="https://user-images.githubusercontent.com/1091
 
 - :telescope: I’m working for an internship to JPL and I am working on a couple Python projects that primarly involve facial recognition.
 
+- 🔎 I’m also working on a few ethical hacking projects too!
+
 - :seedling: Exploring machine learning and neural networks.
 
 - :zap: In my free time, I enjoy surfing <img src="https://media.giphy.com/media/5nh8FKSRtxFEyuajGc/giphy.gif" width="20"> in the amazing California weather, rockclimbing <img src="https://user-images.githubusercontent.com/109172537/209102597-dc13ee51-5809-46a8-880d-5503dc991c9e.png" width="15">, & skiing <img src="https://user-images.githubusercontent.com/109172537/209094289-6beddad4-43ad-4c7e-b39d-121ea9817290.png" width="30">
