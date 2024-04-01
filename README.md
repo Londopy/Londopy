@@ -3,6 +3,8 @@
   
 </div>
 
+<!-- 
+
 <div id="badges" align="center">
   <a href="[your-linkedin-URL](https://www.twitch.tv/ChezLondo_)">
     <img src="https://img.shields.io/twitch/status/ChezLondo_?style=social" alt="Twitch Badge"/>
@@ -24,6 +26,8 @@
   </a>
 </div>
 
+-->
+
 <h1 align="center">
   hey there
   <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"/>
@@ -32,7 +36,6 @@
 <div align="center">
   <img src="https://media.giphy.com/media/dWesBcTLavkZuG35MI/giphy.gif" width="600" height="300"/>
 </div>
-
 
 ---
 
