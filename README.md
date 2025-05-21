@@ -45,9 +45,9 @@ I am a Python Developer <img src="https://user-images.githubusercontent.com/1091
 
 <!--
 - :telescope: I’m working for an internship to JPL and I am working on a couple Python projects that primarly involve facial recognition.
-<!-->
 
 - 🔎 I’m also working on a few ethical hacking projects too!
+<!-->
 
 - :seedling: Exploring machine learning and neural networks.
 
