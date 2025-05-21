@@ -39,7 +39,7 @@
 
 ---
 
-### :woman_technologist: About Me :
+### :man_technologist: About Me :
 
 I am a Python Developer <img src="https://user-images.githubusercontent.com/109172537/209091869-dbcb05cc-6fdd-47fc-a76b-a2cf5a18139b.png" width="20"> from California <img src="https://user-images.githubusercontent.com/109172537/209092922-c2ef01b0-34c5-41b1-b0ab-4f87f5a93fb7.png" width="25">
 
