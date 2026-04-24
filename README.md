@@ -12,7 +12,7 @@
 
 ### Who am I
 
-Califnornia native 🌊 who writes python between surf sessions. Freshman @ uni, curious about basically everything — from how networks get hacked to how drugs interact in the human body.
+Califnornia native 🌊 who writes python between surf sessions. Freshman @ uni, curious about basically everything — from how networks get hacked to wilderness/remote medicine.
 
 i build things because it's fun, not for the linkedin clout.
 
