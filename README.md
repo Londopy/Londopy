@@ -33,11 +33,13 @@ surfing 🏄 the california coast · rockclimbing 🧗 · skiing ⛷️ the sier
 
 ### 🚑 thing i built that i'm most proud of
 
-<a href="https://github.com/Londopy/drugdose">
-  <img align="left" width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=Londopy&repo=drugdose&theme=tokyonight&border_color=00c8ff"/>
+<a href="https://github.com/Londopy/ropesim">
+  <img align="left" width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=Londopy&repo=ropesim&theme=tokyonight&border_color=00c8ff"/>
 </a>
 
-**[drugdose](https://github.com/Londopy/drugdose)** — a full EMS & clinical drug dosing calculator. weight-based doses, IV drip rates, contraindication checks, drug interaction screening. 49-drug database covering EMS, cardiac, ICU, anesthesia, toxicology. built for real healthcare professionals, not a school project.
+**[ropesim](https://github.com/Londopy/ropesim)** — A climbing rope physics engine and GUI simulator.  
+** **
+text
 
 <br clear="left"/>
 <br/>
@@ -47,18 +49,18 @@ surfing 🏄 the california coast · rockclimbing 🧗 · skiing ⛷️ the sier
 ### ⚡ other stuff i've made
 
 <a href="https://github.com/Londopy/Live_Video_Feed_Facial_Recognition">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=Londopy&repo=Live_Video_Feed_Facial_Recognition&theme=tokyonight&border_color=00c8ff"/>
+  <img width="45%" src="https://github-readme-stats.vercel.app/api/pin/?username=Londopy&repo=Live_Video_Feed_Facial_Recognition&theme=tokyonight&border_color=00c8ff"/>
 </a>
-<a href="https://github.com/Londopy/mullvad-wg-monitor">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=Londopy&repo=mullvad-wg-monitor&theme=tokyonight&border_color=00c8ff"/>
-</a>
-
-<a href="https://github.com/Londopy/Fancy-YouTube-Downloader">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=Londopy&repo=Fancy-YouTube-Downloader&theme=tokyonight&border_color=00c8ff"/>
+<a href="https://github.com/Londopy/drugdose">
+  <img width="52%" src="https://github-readme-stats.vercel.app/api/pin/?username=Londopy&repo=drugdose&theme=tokyonight&border_color=00c8ff"/>
 </a>
 <a href="https://github.com/Londopy/Daily-Agenda-SMS">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=Londopy&repo=Daily-Agenda-SMS&theme=tokyonight&border_color=00c8ff"/>
+  <img width="52%" src="https://github-readme-stats.vercel.app/api/pin/?username=Londopy&repo=Daily-Agenda-SMS&theme=tokyonight&border_color=00c8ff"/>
 </a>
+<a href="https://github.com/Londopy/Fancy-YouTube-Downloader">
+  <img width="45%" src="https://github-readme-stats.vercel.app/api/pin/?username=Londopy&repo=Fancy-YouTube-Downloader&theme=tokyonight&border_color=00c8ff"/>
+</a>
+
 
 ---
 
