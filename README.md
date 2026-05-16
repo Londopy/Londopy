@@ -168,6 +168,8 @@ londo@dev:~$ contributions --animate
 
 <div align="center">
 
-*freshman year. just getting started.*
+```
+freshman year. just getting started.
+```
 
 </div>
