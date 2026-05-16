@@ -148,6 +148,19 @@ mindmap
 
 ---
 
+```bash
+londo@dev:~$ contributions --animate
+```
+
+> Snake eats my commit graph daily. Looks better with the dark theme on.
+<div align="center">
+
+![snake animation](https://raw.githubusercontent.com/Londopy/Londopy/output/github-contribution-grid-snake-dark.svg)
+
+</div>
+
+---
+
 ## 🤙 &nbsp; how I work
 
 - Build because the problem is interesting, not for the resume.
