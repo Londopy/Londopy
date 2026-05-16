@@ -54,60 +54,18 @@ Lightweight system-tray app for streamers, presenters, focus tools, and Wallpape
 
 ## 📦 &nbsp; the stack
 
-<table>
-<tr>
-<td valign="top" width="50%">
+```bash
+londo@dev:~$ env | grep STACK
+```
 
-#### languages
-| | |
-|---|---|
-| **Python** | day-to-day, every project |
-| **Rust** | hot paths via PyO3 / Maturin |
-| **TypeScript** | when the web shows up |
-
-#### build & ship
-| | |
-|---|---|
-| **PyPI · Maturin** | wheel-shipping pipeline |
-| **GitHub Actions** | CI for Rust/Python crates |
-| **PyInstaller** | desktop installer builds |
-| **Cargo workspaces** | multi-crate Rust projects |
-
-#### data & viz
-| | |
-|---|---|
-| **NumPy · Pandas** | the usual suspects |
-| **Matplotlib · Seaborn** | static charts + dashboards |
-| **Folium / Leaflet** | interactive maps |
-| **Vispy** | 3D scientific viewports |
-
-</td>
-<td valign="top" width="50%">
-
-#### desktop / GUI
-| | |
-|---|---|
-| **PySide6 · Qt** | main GUI stack |
-| **customtkinter** | quick polished tkinter |
-| **pystray · pywin32** | tray + Win32 internals |
-
-#### infra
-| | |
-|---|---|
-| **SQLite** | local time-series + history |
-| **Win / Linux / macOS** | ships on all three |
-| **DLL injection · Win32** | when going deeper |
-
-#### creative
-| | |
-|---|---|
-| **Nuke** | compositing |
-| **Blender** | 3D + sim |
-| **AE · Premiere** | motion + cut |
-
-</td>
-</tr>
-</table>
+```ini
+LANGUAGES        = Python · Rust · TypeScript · C++ · Bash
+BUILD_AND_SHIP   = PyPI · Maturin · PyO3 · GitHub Actions · PyInstaller · Cargo workspaces
+DATA_AND_VIZ     = NumPy · Pandas · Matplotlib · Seaborn · Folium · Vispy
+GUI              = PySide6 · Qt · Tkinter · pystray · pywin32
+INFRA            = SQLite · Win / Linux / macOS · DLL injection · Win32
+CREATIVE         = Nuke · Maya · After Effects · Premiere · AutoCAD · Houdini
+```
 
 ---
 
