@@ -148,17 +148,6 @@ mindmap
 
 ---
 
-## 📈 &nbsp; the parts of the stats page that actually flatter
-
-<div align="center">
-
-<img width="48%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Londopy&layout=compact&theme=gruvbox&hide_border=true&langs_count=8&exclude_repo=Bearbot&custom_title=what+i+actually+write"/>
-
-<img width="48%" src="https://github-readme-stats.vercel.app/api/pin/?username=Londopy&repo=ropesim&theme=gruvbox&hide_border=true"/>
-
-</div>
-
----
 
 ## 🤙 &nbsp; how I work
 
