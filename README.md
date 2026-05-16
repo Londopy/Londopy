@@ -102,7 +102,7 @@ Lightweight system-tray app for streamers, presenters, focus tools, and Wallpape
 | | |
 |---|---|
 | **Nuke** | compositing |
-| **Blender** | 3D + sim |
+| **Maya** | 3D + sim |
 | **AE · Premiere** | motion + cut |
 
 </td>
