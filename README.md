@@ -1,145 +1,122 @@
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=30&pause=1000&color=D97706&center=true&vCenter=true&random=false&width=720&lines=hey+%E2%80%94+i'm+london;python+%2B+rust+%2F+ship+a+lot;climber+%C2%B7+skier+%C2%B7+surfer+%C2%B7+wfr;build+because+the+problem+is+interesting)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&pause=1000&color=00D9FF&center=true&vCenter=true&random=false&width=720&lines=londo%40dev%3A~%24+whoami;%E2%9F%A2+python+%2F+rust+%2F+win32+internals;%E2%9F%A2+climber+%C2%B7+skier+%C2%B7+surfer+%C2%B7+wfr;%E2%9F%A2+%22the+problem+is+the+point%22)](https://git.io/typing-svg)
 
-<img src="https://komarev.com/ghpvc/?username=Londopy&style=flat-square&color=D97706&label=profile+views"/>
+<img src="https://img.shields.io/badge/uptime-freshman_year-00D9FF?style=flat-square"/>
 &nbsp;
-<img src="https://img.shields.io/badge/PyPI-6_packages_shipped-4A7B3E?style=flat-square&logo=pypi&logoColor=white"/>
+<img src="https://img.shields.io/badge/PyPI-6_packages_shipped-00D9FF?style=flat-square&logo=pypi&logoColor=black&labelColor=0d1117"/>
 &nbsp;
-<img src="https://img.shields.io/badge/stack-Python_%2F_Rust-7A5C3A?style=flat-square"/>
+<img src="https://img.shields.io/badge/runtime-Python_%2F_Rust-00D9FF?style=flat-square&labelColor=0d1117"/>
 
 </div>
 
 ---
 
-## 👋 &nbsp; about
+```bash
+londo@dev:~$ cat about.md
+```
 
-California kid, freshman in college, writes Python between surf sessions and lead climbs. Half the repos here started because something annoyed me on a trail or in the field — a rope question, a pre-hospital protocol, a screen-capture API doing something I didn't ask for. So I built the tool.
+California native, freshman in college, ships Python and Rust. Most of these repos started because something annoyed me on a trail, inside a Windows process, or in a pre-hospital protocol — so I wrote the tool.
 
-I ship a lot. Half the time it's libraries, half the time it's GUIs, occasionally it's a Rust core that makes the whole thing 100× faster. I don't build for a resume — I build because the problem is interesting and I want to know how it works underneath.
+I don't build for a resume. I build because the problem is interesting and I want to know how it works underneath. Half the time it's libraries, half the time it's GUIs, occasionally it's a Rust core that makes the whole thing 100× faster.
 
-> **into right now** — climbing rope dynamics · pre-hospital med tooling · Windows internals · network benchmarking · Nuke compositing
->
-> **outside the keyboard** — skiing the sierras · surfing the coast · WFR field practice · climbing anywhere I can drive to
-
-**reach me →** discord `_Londo.`
-
----
-
-## 🛠️ &nbsp; featured work
-
-> Four projects I'm proudest of right now. All built end-to-end, all public.
-
-### 🪨 &nbsp; [ropesim](https://github.com/Londopy/ropesim) — climbing rope physics engine
-[![PyPI](https://img.shields.io/pypi/v/ropesim?color=D97706&style=flat-square)](https://pypi.org/project/ropesim/) [![Rust](https://img.shields.io/badge/core-Rust-7A5C3A?style=flat-square&logo=rust&logoColor=white)](https://github.com/Londopy/ropesim) [![License: MIT](https://img.shields.io/badge/License-MIT-4A7B3E?style=flat-square)](https://github.com/Londopy/ropesim/blob/main/LICENSE)
-
-UIAA 101 / EN 892 impact-force modelling with a damped-spring RK4 integrator written in **Rust** and exposed to Python via **PyO3 / Maturin**. Ships a 20+ command CLI, a **PySide6 desktop GUI** with a 3D Vispy viewport, optional **Rapier3D** capsule-chain rope simulation, parallel batch sweeps via Rayon, a 25-rope database, and guide-mode belay device math. Built because I wanted to know what actually happens during a factor-2 fall.
-
-### 💊 &nbsp; [drugdose](https://github.com/Londopy/drugdose) — EMS & clinical dosing calculator
-[![PyPI](https://img.shields.io/pypi/v/drugdose?color=D97706&style=flat-square)](https://pypi.org/project/drugdose/) [![License: MIT](https://img.shields.io/badge/License-MIT-4A7B3E?style=flat-square)](https://github.com/Londopy/drugdose) [![49 drugs](https://img.shields.io/badge/database-49_drugs-7A5C3A?style=flat-square)](https://github.com/Londopy/drugdose)
-
-Weight-based dose calculator (mg/kg, mcg/kg, flat) with pediatric caps, IV drip-rate math (any rate unit → mL/hr pump rate + bag duration), **39 curated drug-interaction rules** with severity + management guidance, allergy + cross-reactivity matching, contraindication flags, and a 49-drug bundled database spanning EMS, cardiac, anesthesia, ICU, antibiotics, and toxicology. Pure Python, only `rich` + `click` as deps.
-
-### 🪟 &nbsp; [capture-bypass](https://github.com/Londopy/capture-bypass) — Windows display-affinity tool
-[![Rust](https://img.shields.io/badge/core-Rust-7A5C3A?style=flat-square&logo=rust&logoColor=white)](https://github.com/Londopy/capture-bypass) [![Python frontend](https://img.shields.io/badge/frontend-Python-D97706?style=flat-square&logo=python&logoColor=white)](https://github.com/Londopy/capture-bypass) [![Windows 10/11](https://img.shields.io/badge/Windows-10/11-4A7B3E?style=flat-square)](https://github.com/Londopy/capture-bypass)
-
-Multi-crate Cargo workspace that clears `WDA_EXCLUDEFROMCAPTURE` from Windows display-affinity flags via classic LoadLibrary DLL injection — `OpenProcess` → `VirtualAllocEx` → `WriteProcessMemory` → `CreateRemoteThread(LoadLibraryA)`. Five crates: shared injection lib, CLI, optional egui GUI, one-shot payload DLL, persistent payload DLL. Customtkinter frontend with live process list, auto-inject mode, and 32-bit fallback path.
-
-### 🖥️ &nbsp; [HideDesktopApps](https://github.com/Londopy/HideDesktopApps) — Windows tray hotkey app
-[![PyPI](https://img.shields.io/pypi/v/hide-desktop-apps?color=D97706&style=flat-square)](https://pypi.org/project/hide-desktop-apps/) [![License: MIT](https://img.shields.io/badge/License-MIT-4A7B3E?style=flat-square)](https://github.com/Londopy/HideDesktopApps) [![Pure Python](https://img.shields.io/badge/pure-Python-7A5C3A?style=flat-square)](https://github.com/Londopy/HideDesktopApps)
-
-Lightweight system-tray app for streamers, presenters, focus tools, and Wallpaper Engine fans. Three configurable hotkeys (icons / taskbar / all windows), multi-monitor taskbar handling, settings GUI for hotkey rebinding + startup config, auto-start launcher, tiny memory footprint via `pystray` + `pywin32`. On PyPI as `hide-desktop-apps`.
+```bash
+londo@dev:~$ cat status.json
+```
+```json
+{
+  "into_right_now":  ["rope dynamics", "pre-hospital med", "win32 internals", "net benchmarking"],
+  "off_the_keyboard": ["climbing", "backcountry skiing", "surfing", "WFR field practice"],
+  "reach":            "discord :: _Londo."
+}
+```
 
 ---
 
-## 📦 &nbsp; the stack
+```bash
+londo@dev:~$ ls -la ~/projects/featured/
+```
 
-<table>
-<tr>
-<td valign="top" width="50%">
+#### ▸ &nbsp; [ropesim](https://github.com/Londopy/ropesim) &nbsp; — climbing rope physics engine
 
-#### languages
-| | |
-|---|---|
-| **Python** | day-to-day, every project |
-| **Rust** | hot paths via PyO3 / Maturin |
-| **TypeScript** | when the web shows up |
+`python` `rust` `pyo3` `maturin` `pyside6` `vispy` `rapier3d`
 
-#### build & ship
-| | |
-|---|---|
-| **PyPI · Maturin** | wheel-shipping pipeline |
-| **GitHub Actions** | CI for Rust/Python crates |
-| **PyInstaller** | desktop installer builds |
-| **Cargo workspaces** | multi-crate Rust projects |
+[![PyPI](https://img.shields.io/pypi/v/ropesim?color=00D9FF&style=flat-square&labelColor=0d1117)](https://pypi.org/project/ropesim/) [![License](https://img.shields.io/badge/License-MIT-39d353?style=flat-square&labelColor=0d1117)](https://github.com/Londopy/ropesim)
 
-#### data & viz
-| | |
-|---|---|
-| **NumPy · Pandas** | the usual suspects |
-| **Matplotlib · Seaborn** | static charts + dashboards |
-| **Folium / Leaflet** | interactive maps |
-| **Vispy** | 3D scientific viewports |
+UIAA 101 / EN 892 impact-force model. Damped-spring RK4 integrator in Rust via PyO3/Maturin. Ships Python API + 20+ command CLI + PySide6 GUI with 3D Vispy viewport + optional Rapier3D capsule-chain mode. Parallel batch sweeps via Rayon. 25-rope database. Guide-mode self-locking belay device math.
 
-</td>
-<td valign="top" width="50%">
+#### ▸ &nbsp; [drugdose](https://github.com/Londopy/drugdose) &nbsp; — EMS & clinical drug dosing
 
-#### desktop / GUI
-| | |
-|---|---|
-| **PySide6 · Qt** | main GUI stack |
-| **customtkinter** | quick polished tkinter |
-| **pystray · pywin32** | tray + Win32 internals |
+`python` `cli` `rich` `click` `clinical` `ems`
 
-#### infra
-| | |
-|---|---|
-| **SQLite** | local time-series + history |
-| **Win / Linux / macOS** | ships on all three |
-| **DLL injection · Win32** | when going deeper |
+[![PyPI](https://img.shields.io/pypi/v/drugdose?color=00D9FF&style=flat-square&labelColor=0d1117)](https://pypi.org/project/drugdose/) [![License](https://img.shields.io/badge/License-MIT-39d353?style=flat-square&labelColor=0d1117)](https://github.com/Londopy/drugdose) [![Tests](https://img.shields.io/badge/tests-24_passing-39d353?style=flat-square&labelColor=0d1117)](https://github.com/Londopy/drugdose)
 
-#### creative
-| | |
-|---|---|
-| **Nuke** | compositing |
-| **Maya** | 3D + sim |
-| **AE · Premiere** | motion + cut |
+Weight-based dosing (mg/kg, mcg/kg, flat) with pediatric caps. IV drip math, any unit → mL/hr + bag duration. 39 curated drug-interaction rules with severity + management. Allergy + cross-reactivity matching. 49-drug bundled database. Pure Python.
 
-</td>
-</tr>
-</table>
+#### ▸ &nbsp; [capture-bypass](https://github.com/Londopy/capture-bypass) &nbsp; — Windows display-affinity tool
+
+`rust` `cargo-workspace` `dll-injection` `win32` `customtkinter`
+
+[![Rust](https://img.shields.io/badge/core-Rust-00D9FF?style=flat-square&logo=rust&labelColor=0d1117)](https://github.com/Londopy/capture-bypass) [![Windows](https://img.shields.io/badge/Windows-10%2F11-39d353?style=flat-square&labelColor=0d1117)](https://github.com/Londopy/capture-bypass)
+
+Multi-crate Cargo workspace. Clears `WDA_EXCLUDEFROMCAPTURE` via `OpenProcess` → `VirtualAllocEx` → `WriteProcessMemory` → `CreateRemoteThread(LoadLibraryA)`. Five crates: shared lib · CLI · optional egui GUI · one-shot payload DLL · persistent payload DLL. customtkinter Python frontend with auto-inject + x86 fallback.
+
+#### ▸ &nbsp; [HideDesktopApps](https://github.com/Londopy/HideDesktopApps) &nbsp; — Windows tray hotkey app
+
+`python` `pystray` `pywin32` `tray` `hotkeys`
+
+[![PyPI](https://img.shields.io/pypi/v/hide-desktop-apps?color=00D9FF&style=flat-square&labelColor=0d1117)](https://pypi.org/project/hide-desktop-apps/) [![License](https://img.shields.io/badge/License-MIT-39d353?style=flat-square&labelColor=0d1117)](https://github.com/Londopy/HideDesktopApps)
+
+Pure-Python tray app — hide/show desktop icons, taskbar, all windows via three configurable hotkeys. Multi-monitor taskbar handling. Settings GUI for hotkey rebinding + startup config. Auto-start launcher. `pystray` + `pywin32` under the hood.
 
 ---
 
-## 🧭 &nbsp; how the work clusters
+```bash
+londo@dev:~$ env | grep STACK
+```
+
+```ini
+LANGUAGES        = Python · Rust · C++
+BUILD_AND_SHIP   = PyPI · Maturin · PyO3 · GitHub Actions · PyInstaller · Cargo workspaces
+DATA_AND_VIZ     = NumPy · Pandas · Matplotlib · Seaborn · Folium · Vispy
+GUI      = PySide6 · Qt · customtkinter · pystray · pywin32
+INFRA    = SQLite · Win / Linux / macOS · DLL injection · Win32
+CREATIVE         = Nuke · Maya · After Effects · Houdini
+```
+
+---
+
+```bash
+londo@dev:~$ tree ~/brain
+```
 
 ```mermaid
-%%{init: {'theme':'base','themeVariables':{'primaryColor':'#FAF6EC','primaryTextColor':'#2A2418','primaryBorderColor':'#7A5C3A','lineColor':'#7A5C3A','tertiaryColor':'#FFF8EC'}}}%%
+%%{init: {'theme':'dark','themeVariables':{'primaryColor':'#0d1117','primaryTextColor':'#c9d1d9','primaryBorderColor':'#00D9FF','lineColor':'#00D9FF','tertiaryColor':'#161b22','fontFamily':'JetBrains Mono, monospace'}}}%%
 mindmap
-  root((London))
-    Climbing & physics
+  root((londo))
+    climbing & physics
       ropesim
-      Rust + PyO3
       damped-spring RK4
+      Rapier3D capsule chain
       PySide6 + Vispy
-    Pre-hospital med
+    pre-hospital med
       drugdose
       vitalscore
       WFR field tooling
-    Windows internals
+    windows internals
       capture-bypass
       HideDesktopApps
       DLL injection
       Win32 + pywin32
-    Geographic / OSINT
+    geographic OSINT
       pygeospy
-      SAR grids
+      SAR · NASAR grids
       EXIF + terrain
-    Languages
+    languages
       Python
-      Rust · PyO3 · Maturin
-      TypeScript
-    Off-keyboard
+      Rust + PyO3
+      c++
+    off-keyboard
       lead climbing
       backcountry skiing
       surfing
@@ -149,12 +126,32 @@ mindmap
 ---
 
 
-## 🤙 &nbsp; how I work
+```bash
+londo@dev:~$ contributions --animate
+```
 
-- Build because the problem is interesting, not for the resume.
-- If it's hot, write it in Rust — but ship the Python API first.
-- Every library gets a real CHANGELOG and a real test suite.
-- Documentation is part of the deliverable, not an afterthought.
+> Snake eats my commit graph daily. Looks better with the dark theme on. *(Setup: drop `.github/workflows/snake.yml` from [Platane/snk](https://github.com/Platane/snk) into the Londopy/Londopy repo — Action regenerates the SVG every 24h.)*
+
+<div align="center">
+
+![snake animation](https://raw.githubusercontent.com/Londopy/Londopy/output/github-contribution-grid-snake-dark.svg)
+
+</div>
+
+---
+
+```bash
+londo@dev:~$ cat principles.txt
+```
+
+```text
+[01]  build because the problem is interesting, not for the resume
+[02]  if it's hot, write it in rust — but ship the python API first
+[03]  every library gets a real CHANGELOG and a real test suite
+[04]  documentation is part of the deliverable, not an afterthought
+```
+
+
 
 <div align="center">
 
