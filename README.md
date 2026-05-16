@@ -130,7 +130,7 @@ mindmap
 londo@dev:~$ contributions --animate
 ```
 
-> Snake eats my commit graph daily. Looks better with the dark theme on. *(Setup: drop `.github/workflows/snake.yml` from [Platane/snk](https://github.com/Platane/snk) into the Londopy/Londopy repo — Action regenerates the SVG every 24h.)*
+> Snake eats my commit graph daily. Looks better with the dark theme on.
 
 <div align="center">
 
