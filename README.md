@@ -1,8 +1,8 @@
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=30&pause=1000&color=D97706&center=true&vCenter=true&random=false&width=720&lines=hey+%E2%80%94+i'm+london+%F0%9F%97%BB;california+native+%2F+python+%2B+rust;climber+%C2%B7+skier+%C2%B7+surfer+%C2%B7+wfr;building+things+because+it's+fun)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=30&pause=1000&color=D97706&center=true&vCenter=true&random=false&width=720&lines=hey+%E2%80%94+i'm+london;python+%2B+rust+%2F+ship+a+lot;climber+%C2%B7+skier+%C2%B7+surfer+%C2%B7+wfr;build+because+the+problem+is+interesting)](https://git.io/typing-svg)
 
-<img src="https://komarev.com/ghpvc/?username=Londopy&style=flat-square&color=D97706&label=trailhead+visits"/>
+<img src="https://komarev.com/ghpvc/?username=Londopy&style=flat-square&color=D97706&label=profile+views"/>
 &nbsp;
 <img src="https://img.shields.io/badge/PyPI-6_packages_shipped-4A7B3E?style=flat-square&logo=pypi&logoColor=white"/>
 &nbsp;
@@ -10,85 +10,70 @@
 
 </div>
 
-```text
-        .             .              .          .                         .
-   .       .       .         /\         .             .         .
-                          /\/  \              .                  .
-   .         .          /\/    \  .                          .         .
-              .        /  \     \              .       /\
-        .             /    \     \    .              /  \      .
-   .            /\___/      \_____\___________   _/    \____.        .
-                           ~~basecamp~~        ~~the keyboard~~
-```
-
 ---
 
-## 🏕️  basecamp · who is this
+## 👋 &nbsp; about
 
-california kid, freshman in college, writes python between surf sessions and lead climbs. half the repos here started because something annoyed me on a trail or in the field — a rope question, a pre-hospital protocol, a SAR grid I had to draw on paper. so i built the tool.
+California kid, freshman in college, writes Python between surf sessions and lead climbs. Half the repos here started because something annoyed me on a trail or in the field — a rope question, a pre-hospital protocol, a screen-capture API doing something I didn't ask for. So I built the tool.
 
-i ship a lot, half the time it's libraries, half the time it's GUIs, occasionally it's a Rust core that makes the whole thing 100× faster. i don't build for a resume — i build because the problem is interesting and i want to know how it works underneath.
+I ship a lot. Half the time it's libraries, half the time it's GUIs, occasionally it's a Rust core that makes the whole thing 100× faster. I don't build for a resume — I build because the problem is interesting and I want to know how it works underneath.
 
-> currently into → climbing rope dynamics · pre-hospital med tooling · geographic OSINT · network benchmarking · cybersecurity · Nuke compositing
+> **into right now** — climbing rope dynamics · pre-hospital med tooling · Windows internals · network benchmarking · Nuke compositing
 >
-> currently outside → skiing the sierras · surfing the central coast · climbing wherever i can drive to · WFR field practice
+> **outside the keyboard** — skiing the sierras · surfing the coast · WFR field practice · climbing anywhere I can drive to
 
 **reach me →** discord `_Londo.`
 
 ---
 
-## 🏔️  featured summits
+## 🛠️ &nbsp; featured work
 
-> the four climbs i'm proudest of right now. all on PyPI, all MIT, all built end-to-end.
+> Four projects I'm proudest of right now. All built end-to-end, all public.
 
-### 🪨  [ropesim](https://github.com/Londopy/ropesim) &nbsp;·&nbsp; climbing rope physics engine
+### 🪨 &nbsp; [ropesim](https://github.com/Londopy/ropesim) — climbing rope physics engine
 [![PyPI](https://img.shields.io/pypi/v/ropesim?color=D97706&style=flat-square)](https://pypi.org/project/ropesim/) [![Rust](https://img.shields.io/badge/core-Rust-7A5C3A?style=flat-square&logo=rust&logoColor=white)](https://github.com/Londopy/ropesim) [![License: MIT](https://img.shields.io/badge/License-MIT-4A7B3E?style=flat-square)](https://github.com/Londopy/ropesim/blob/main/LICENSE)
 
-UIAA 101 / EN 892 impact-force modelling with a damped-spring RK4 integrator written in **Rust** and exposed to Python via **PyO3 / Maturin**. Ships a 20+ command CLI, a **PySide6 desktop GUI** with a 3D Vispy viewport, optional **Rapier3D** capsule-chain rope simulation, parallel batch sweeps via Rayon, a 25-rope database (Beal · Mammut · Sterling · Petzl · Edelrid · BD), guide-mode self-locking belay device math, anchor-system load distribution, and Jupyter HTML/SVG reprs. Built because i wanted to know what *actually* happens during a factor-2 fall.
+UIAA 101 / EN 892 impact-force modelling with a damped-spring RK4 integrator written in **Rust** and exposed to Python via **PyO3 / Maturin**. Ships a 20+ command CLI, a **PySide6 desktop GUI** with a 3D Vispy viewport, optional **Rapier3D** capsule-chain rope simulation, parallel batch sweeps via Rayon, a 25-rope database, and guide-mode belay device math. Built because I wanted to know what actually happens during a factor-2 fall.
 
-### 🛰️  [mullvad-wg-monitor](https://github.com/Londopy/mullvad-wg-monitor) &nbsp;·&nbsp; VPN benchmarking lab
-[![Python](https://img.shields.io/badge/Python-3.8%2B-D97706?style=flat-square&logo=python&logoColor=white)](https://github.com/Londopy/mullvad-wg-monitor) [![License: MIT](https://img.shields.io/badge/License-MIT-4A7B3E?style=flat-square)](https://github.com/Londopy/mullvad-wg-monitor) [![Platform](https://img.shields.io/badge/win_·_mac_·_linux-7A5C3A?style=flat-square)](https://github.com/Londopy/mullvad-wg-monitor)
+### 💊 &nbsp; [drugdose](https://github.com/Londopy/drugdose) — EMS & clinical dosing calculator
+[![PyPI](https://img.shields.io/pypi/v/drugdose?color=D97706&style=flat-square)](https://pypi.org/project/drugdose/) [![License: MIT](https://img.shields.io/badge/License-MIT-4A7B3E?style=flat-square)](https://github.com/Londopy/drugdose) [![49 drugs](https://img.shields.io/badge/database-49_drugs-7A5C3A?style=flat-square)](https://github.com/Londopy/drugdose)
 
-Desktop tool that pings every Mullvad WireGuard server across 7 US cities with **per-packet live sparkline animation**, stores history in **SQLite**, and renders it with **Seaborn / Matplotlib + an interactive Folium / Leaflet dark map**. System-tray mode, threshold alerts, "best server" CLI auto-connect, side-by-side run comparison, traceroute tab, HTTP throughput test, dark/light theming. Comes with its own PyInstaller GUI installer.
+Weight-based dose calculator (mg/kg, mcg/kg, flat) with pediatric caps, IV drip-rate math (any rate unit → mL/hr pump rate + bag duration), **39 curated drug-interaction rules** with severity + management guidance, allergy + cross-reactivity matching, contraindication flags, and a 49-drug bundled database spanning EMS, cardiac, anesthesia, ICU, antibiotics, and toxicology. Pure Python, only `rich` + `click` as deps.
 
-### 🗺️  [pygeospy](https://github.com/Londopy/pygeospy) &nbsp;·&nbsp; geographic OSINT toolkit
-[![PyPI](https://img.shields.io/pypi/v/pygeospy?color=D97706&style=flat-square)](https://pypi.org/project/pygeospy/) [![Rust](https://img.shields.io/badge/core-Rust-7A5C3A?style=flat-square&logo=rust&logoColor=white)](https://github.com/Londopy/pygeospy)
+### 🪟 &nbsp; [capture-bypass](https://github.com/Londopy/capture-bypass) — Windows display-affinity tool
+[![Rust](https://img.shields.io/badge/core-Rust-7A5C3A?style=flat-square&logo=rust&logoColor=white)](https://github.com/Londopy/capture-bypass) [![Python frontend](https://img.shields.io/badge/frontend-Python-D97706?style=flat-square&logo=python&logoColor=white)](https://github.com/Londopy/capture-bypass) [![Windows 10/11](https://img.shields.io/badge/Windows-10/11-4A7B3E?style=flat-square)](https://github.com/Londopy/capture-bypass)
 
-> *"give it any image, coordinate, IP, or set of clues — produce a location."*
+Multi-crate Cargo workspace that clears `WDA_EXCLUDEFROMCAPTURE` from Windows display-affinity flags via classic LoadLibrary DLL injection — `OpenProcess` → `VirtualAllocEx` → `WriteProcessMemory` → `CreateRemoteThread(LoadLibraryA)`. Five crates: shared injection lib, CLI, optional egui GUI, one-shot payload DLL, persistent payload DLL. Customtkinter frontend with live process list, auto-inject mode, and 32-bit fallback path.
 
-Rust-accelerated GEOINT/OSINT library: **solar shadow → latitude band**, EXIF + GPS extraction, terrain + OSM querying, **NASAR / ISRID search-and-rescue grid generation**, BirdNET + siren acoustic classification, offline-first vision via LLaVA/Ollama (zero API keys). The mountain-rescue brain compressed into one `analyze(anything)` pipeline.
+### 🖥️ &nbsp; [HideDesktopApps](https://github.com/Londopy/HideDesktopApps) — Windows tray hotkey app
+[![PyPI](https://img.shields.io/pypi/v/hide-desktop-apps?color=D97706&style=flat-square)](https://pypi.org/project/hide-desktop-apps/) [![License: MIT](https://img.shields.io/badge/License-MIT-4A7B3E?style=flat-square)](https://github.com/Londopy/HideDesktopApps) [![Pure Python](https://img.shields.io/badge/pure-Python-7A5C3A?style=flat-square)](https://github.com/Londopy/HideDesktopApps)
 
-### 🚑  [vitalscore](https://github.com/Londopy/vitalscore) &nbsp;·&nbsp; pre-hospital scoring library
-[![PyPI](https://img.shields.io/pypi/v/vitalscore?color=D97706&style=flat-square)](https://pypi.org/project/vitalscore/) [![License: MIT](https://img.shields.io/badge/License-MIT-4A7B3E?style=flat-square)](https://github.com/Londopy/vitalscore) [![No deps](https://img.shields.io/badge/dependencies-zero-4A7B3E?style=flat-square)](https://github.com/Londopy/vitalscore)
-
-Typed, validated dataclasses for the clinical scores you actually use in the field: **GCS · AVPU · APGAR · START triage · NEWS2 · qSOFA · HEART**, plus assessment mnemonics (CUPS · OPQRST · SAMPLE). Every score returns an interpretation string, not just a number. Zero dependencies, ships with a real-world DISCLAIMER.md, batch triage helpers, full test suite.
-
-> 🥾 also worth a look → [`drugdose`](https://github.com/Londopy/drugdose) (EMS weight-based dosing + interaction screening) · [`patchnotes`](https://github.com/Londopy/patchnotes) (Keep-a-Changelog parser, zero deps) · [`HideDesktopApps`](https://github.com/Londopy/HideDesktopApps) (Windows tray hotkey app)
+Lightweight system-tray app for streamers, presenters, focus tools, and Wallpaper Engine fans. Three configurable hotkeys (icons / taskbar / all windows), multi-monitor taskbar handling, settings GUI for hotkey rebinding + startup config, auto-start launcher, tiny memory footprint via `pystray` + `pywin32`. On PyPI as `hide-desktop-apps`.
 
 ---
 
-## 🎒  the kit — what's in the pack
+## 📦 &nbsp; the stack
 
 <table>
 <tr>
 <td valign="top" width="50%">
 
-#### 🧭  languages & cores
+#### languages
 | | |
 |---|---|
 | **Python** | day-to-day, every project |
 | **Rust** | hot paths via PyO3 / Maturin |
 | **TypeScript** | when the web shows up |
 
-#### 🪛  build & ship
+#### build & ship
 | | |
 |---|---|
 | **PyPI · Maturin** | wheel-shipping pipeline |
-| **GitHub Actions** | CI for the Rust/Python crates |
+| **GitHub Actions** | CI for Rust/Python crates |
 | **PyInstaller** | desktop installer builds |
-| **pyproject.toml** | always |
+| **Cargo workspaces** | multi-crate Rust projects |
 
-#### 📊  data & visualisation
+#### data & viz
 | | |
 |---|---|
 | **NumPy · Pandas** | the usual suspects |
@@ -99,21 +84,21 @@ Typed, validated dataclasses for the clinical scores you actually use in the fie
 </td>
 <td valign="top" width="50%">
 
-#### 🖥️  desktop / GUI
+#### desktop / GUI
 | | |
 |---|---|
 | **PySide6 · Qt** | main GUI stack |
-| **Tkinter** | quick + dirty when needed |
-| **System tray** | pystray on Win/macOS/Linux |
+| **customtkinter** | quick polished tkinter |
+| **pystray · pywin32** | tray + Win32 internals |
 
-#### 🗄️  storage & infra
+#### infra
 | | |
 |---|---|
 | **SQLite** | local time-series + history |
-| **Linux · Windows · macOS** | ships on all three |
-| **Raspberry Pi · Kali** | field rigs |
+| **Win / Linux / macOS** | ships on all three |
+| **DLL injection · Win32** | when going deeper |
 
-#### 🎬  creative / off-keyboard
+#### creative
 | | |
 |---|---|
 | **Nuke** | compositing |
@@ -126,37 +111,35 @@ Typed, validated dataclasses for the clinical scores you actually use in the fie
 
 ---
 
-## 🗻  the topo map — where my work clusters
+## 🧭 &nbsp; how the work clusters
 
 ```mermaid
-%%{init: {'theme':'base','themeVariables':{'primaryColor':'#F5F1E8','primaryTextColor':'#2D2A1F','primaryBorderColor':'#7A5C3A','lineColor':'#7A5C3A','tertiaryColor':'#FFF8EC'}}}%%
+%%{init: {'theme':'base','themeVariables':{'primaryColor':'#FAF6EC','primaryTextColor':'#2A2418','primaryBorderColor':'#7A5C3A','lineColor':'#7A5C3A','tertiaryColor':'#FFF8EC'}}}%%
 mindmap
-  root((🏔️<br/>Londopy))
-    🪨 climbing & physics
+  root((London))
+    Climbing & physics
       ropesim
+      Rust + PyO3
       damped-spring RK4
-      Rapier3D capsule chain
       PySide6 + Vispy
-    🚑 pre-hospital med
-      vitalscore
+    Pre-hospital med
       drugdose
+      vitalscore
       WFR field tooling
-      pre-hospital protocols
-    🗺️ geographic OSINT
+    Windows internals
+      capture-bypass
+      HideDesktopApps
+      DLL injection
+      Win32 + pywin32
+    Geographic / OSINT
       pygeospy
-      SAR · NASAR grids
-      solar / shadow geom
+      SAR grids
       EXIF + terrain
-    🛰️ networks & infra
-      mullvad-wg-monitor
-      WireGuard benchmarking
-      Folium dark maps
-      SQLite trending
-    🛠️ languages
+    Languages
       Python
       Rust · PyO3 · Maturin
       TypeScript
-    🌲 off-keyboard
+    Off-keyboard
       lead climbing
       backcountry skiing
       surfing
@@ -165,7 +148,7 @@ mindmap
 
 ---
 
-## 📈  trail stats — the parts that actually flatter
+## 📈 &nbsp; the parts of the stats page that actually flatter
 
 <div align="center">
 
@@ -175,26 +158,17 @@ mindmap
 
 </div>
 
-<sub align="center">⛰️  no streak counter, no commit pageantry — just languages and the climb i'm proudest of. honest stats over vanity stats.</sub>
-
 ---
 
-## 🧭  field rules
+## 🤙 &nbsp; how I work
 
-```text
-   ▲  build because the problem is interesting, not for the resume
-   ▲  if it's hot, write it in rust — but ship the python API first
-   ▲  every library gets a real CHANGELOG and a real test suite
-   ▲  documentation is part of the deliverable, not an afterthought
-   ▲  if it doesn't survive the trail, it doesn't ship
-```
-
----
+- Build because the problem is interesting, not for the resume.
+- If it's hot, write it in Rust — but ship the Python API first.
+- Every library gets a real CHANGELOG and a real test suite.
+- Documentation is part of the deliverable, not an afterthought.
 
 <div align="center">
 
-**📡  freshman year. just getting started. catch me at the next basecamp.**
-
-`73, Londopy — over and out.`
+*freshman year. just getting started.*
 
 </div>
