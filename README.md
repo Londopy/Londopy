@@ -4,7 +4,7 @@
 
 <img src="https://komarev.com/ghpvc/?username=Londopy&style=flat-square&color=D97706&label=profile+views"/>
 &nbsp;
-<img src="https://img.shields.io/badge/PyPI-6_packages_shipped-4A7B3E?style=flat-square&logo=pypi&logoColor=white"/>
+<img src="https://img.shields.io/badge/PyPI-7_packages_shipped-4A7B3E?style=flat-square&logo=pypi&logoColor=white"/>
 &nbsp;
 <img src="https://img.shields.io/badge/stack-Python_%2F_Rust-7A5C3A?style=flat-square"/>
 
