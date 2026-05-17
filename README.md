@@ -55,8 +55,8 @@ Provides typed, validated implementations of the clinical scoring tools used in 
 
 UIAA 101 / EN 892 impact-force modelling with a damped-spring RK4 integrator written in **Rust** and exposed to Python via **PyO3 / Maturin**. Ships a 20+ command CLI, a **PySide6 desktop GUI** with a 3D Vispy viewport, optional **Rapier3D** capsule-chain rope simulation, parallel batch sweeps via Rayon, a 25-rope database, and guide-mode belay device math. Built because I wanted to know what actually happens during a factor-2 fall.
 
-### 🎮 &nbsp; [ValoTracker](https://github.com/Londopy/ropesim) — A fast, privacy-first Valorant match tracker written in Rust
-[![PyPI](https://img.shields.io/pypi/v/ValoTracker?color=D97706&style=flat-square)](https://pypi.org/project/ropesim/) [![Rust](https://img.shields.io/badge/core-Rust-7A5C3A?style=flat-square&logo=rust&logoColor=white)](https://github.com/Londopy/ValoTracker) [![License: MIT](https://img.shields.io/badge/License-MIT-4A7B3E?style=flat-square)](https://github.com/Londopy/ValoTracker/blob/main/LICENSE)
+### 🎮 &nbsp; [ValoTracker](https://github.com/Londopy/ValoTracker) — A fast, privacy-first Valorant match tracker written in Rust
+[![PyPI](https://img.shields.io/pypi/v/ValoTracker?color=D97706&style=flat-square)](https://pypi.org/project/ValoTracker/) [![Rust](https://img.shields.io/badge/core-Rust-7A5C3A?style=flat-square&logo=rust&logoColor=white)](https://github.com/Londopy/ValoTracker) [![License: MIT](https://img.shields.io/badge/License-MIT-4A7B3E?style=flat-square)](https://github.com/Londopy/ValoTracker/blob/main/LICENSE)
 
 Real-time VALORANT match tracker — view live player ranks, stats, agents, and party info.
 
