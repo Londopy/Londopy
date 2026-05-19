@@ -31,7 +31,7 @@ I ship a lot. Half the time it's libraries, half the time it's GUIs, occasionall
 > Six projects I'm proudest of right now. All built end-to-end, all public.
 
 ### 👨‍💻 &nbsp; [capture-bypass](https://github.com/Londopy/capture-bypass) — Windows display-affinity tool
-[![Rust](https://img.shields.io/badge/core-Rust-7A5C3A?style=flat-square&logo=rust&logoColor=white)](https://github.com/Londopy/capture-bypass) ![GitHub Downloads](https://img.shields.io/github/downloads/Londopy/capture-bypass/total?cacheSeconds=300) [![Windows 10/11](https://img.shields.io/badge/Windows-10/11-4A7B3E?style=flat-square)](https://github.com/Londopy/capture-bypass)
+[![Rust](https://img.shields.io/badge/core-Rust-7A5C3A?style=flat-square&logo=rust&logoColor=white)](https://github.com/Londopy/capture-bypass) ![GitHub Downloads](https://img.shields.io/github/downloads/Londopy/capture-bypass/total?) [![Windows 10/11](https://img.shields.io/badge/Windows-10/11-4A7B3E?style=flat-square)](https://github.com/Londopy/capture-bypass)
 
 Multi-crate Cargo workspace that clears `WDA_EXCLUDEFROMCAPTURE` from Windows display-affinity flags via DLL injection. Six crates: shared injection lib, CLI, egui GUI, one-shot payload DLL, persistent payload DLL, and stress tester. GUI features live process list, auto-inject + tray mode, watch-list, global hotkey, toast notifications, injection log, update checker, and browser multi-process enumeration. 32-bit fallback for x86 targets. Ships with an Inno Setup installer.
 
