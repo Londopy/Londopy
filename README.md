@@ -8,58 +8,44 @@
 &nbsp;
 <img src="https://img.shields.io/badge/stack-Python_%2F_Rust-7A5C3A?style=flat-square"/>
 
+### 🌐 &nbsp; [**londopy.github.io**](https://londopy.github.io)
+
+*the full, filterable project index — grouped by domain, with per-project writeups*
+
 </div>
 
 ---
 
 ## 👋 &nbsp; about
 
-California kid, freshman in college, writes Python between surf sessions and rock climbs. Half the repos here started because something annoyed me on a trail or in the field — a rope question, a pre-hospital protocol, a screen-capture API doing something I didn't ask for. So I built the tool.
+I build tools for **climbing**, **medicine**, **Windows internals**, and **myself**. California kid, freshman in college, writing Python between surf sessions and rock climbs. Most of what's here started because something annoyed me on a trail or in the field — a rope question, a pre-hospital protocol, a screen-capture API doing something I didn't ask for — so I built the tool.
 
-I ship a lot. Half the time it's libraries, half the time it's GUIs, occasionally it's a Rust core that makes the whole thing 100× faster. I don't build for a resume — I build because the problem is interesting and I want to know how it works underneath.
+Rust and Python, mostly. Half of it is libraries, half is GUIs, occasionally it's a Rust core that makes the whole thing 100× faster.
 
-> **into right now** — climbing rope dynamics · pre-hospital med tooling · Windows internals · network benchmarking · Nuke compositing
+> **into right now** — climbing rope dynamics · pre-hospital med tooling · Windows internals · geospatial / OSINT
 >
-> **outside the keyboard** — skiing the sierras · surfing the coast · WFR field practice · climbing anywhere I can drive to
+> **outside the keyboard** — skiing the sierras · surfing the coast · WFR field practice · trad climbing anywhere I can drive to
 
-**reach me →** discord `_londo.`
+**reach me →** discord `_londo`
 
 ---
 
-## 🛠️ &nbsp; featured work
+## 🛠️ &nbsp; featured
 
-> Six projects I'm proudest of right now. All built end-to-end, all public.
+> The highlight reel. The **[full index of 18 projects across 9 domains lives on the site »](https://londopy.github.io)** — filterable by tag and language, with writeups.
 
-### 👨‍💻 &nbsp; [capture-bypass](https://github.com/Londopy/capture-bypass) — Windows display-affinity tool
-[![Rust](https://img.shields.io/badge/core-Rust-7A5C3A?style=flat-square&logo=rust&logoColor=white)](https://github.com/Londopy/capture-bypass) ![GitHub Downloads](https://img.shields.io/github/downloads/Londopy/capture-bypass/total?) [![Windows 10/11](https://img.shields.io/badge/Windows-10/11-4A7B3E?style=flat-square)](https://github.com/Londopy/capture-bypass)
+**[capture-bypass](https://github.com/Londopy/capture-bypass)** &nbsp;·&nbsp; ⭐ Rust — DLL-injection tool that clears screen-capture protection on Windows 10/11. Multi-crate workspace, egui GUI, Inno installer. &nbsp;[· writeup »](https://londopy.github.io/projects/capture-bypass/)
 
-Multi-crate Cargo workspace that clears `WDA_EXCLUDEFROMCAPTURE` from Windows display-affinity flags via DLL injection. Six crates: shared injection lib, CLI, egui GUI, one-shot payload DLL, persistent payload DLL, and stress tester. GUI features live process list, auto-inject + tray mode, watch-list, global hotkey, toast notifications, injection log, update checker, and browser multi-process enumeration. 32-bit fallback for x86 targets. Ships with an Inno Setup installer.
+**[akribia](https://github.com/Londopy/akribia)** &nbsp;·&nbsp; Python — computational model of precision-weighted Bayesian inference across autism, ADHD, and PPCS. &nbsp;[· live demo »](https://londopy.github.io/akribia/)
 
-### 🖥️ &nbsp; [HideDesktopApps](https://github.com/Londopy/HideDesktopApps) — Windows tray hotkey app
-[![PyPI](https://img.shields.io/pypi/v/hide-desktop-apps?color=D97706&style=flat-square)](https://pypi.org/project/hide-desktop-apps/) [![License: MIT](https://img.shields.io/badge/License-MIT-4A7B3E?style=flat-square)](https://github.com/Londopy/HideDesktopApps) [![Pure Python](https://img.shields.io/badge/pure-Python-7A5C3A?style=flat-square)](https://github.com/Londopy/HideDesktopApps)
+**[drugdose](https://github.com/Londopy/drugdose)** &nbsp;·&nbsp; Python — EMS & clinical drug-dosing calculator: weight-based dosing, a 49-drug database, and interaction rules. &nbsp;[· writeup »](https://londopy.github.io/projects/drugdose/)
 
-Lightweight system-tray app for streamers, presenters, focus tools, and Wallpaper Engine fans. Three configurable hotkeys (icons / taskbar / all windows), multi-monitor taskbar handling, settings GUI for hotkey rebinding + startup config, auto-start launcher, tiny memory footprint via `pystray` + `pywin32`. On PyPI as `hide-desktop-apps`.
+**[ropesim](https://github.com/Londopy/ropesim)** &nbsp;·&nbsp; Rust + Python — climbing-rope physics engine; damped-spring RK4 core via PyO3 / Maturin with a PySide6 3D GUI. &nbsp;[· writeup »](https://londopy.github.io/projects/ropesim/)
 
-### 💊 &nbsp; [drugdose](https://github.com/Londopy/drugdose) — EMS & clinical dosing calculator
-[![PyPI](https://img.shields.io/pypi/v/drugdose?color=D97706&style=flat-square)](https://pypi.org/project/drugdose/) [![License: MIT](https://img.shields.io/badge/License-MIT-4A7B3E?style=flat-square)](https://github.com/Londopy/drugdose) [![49 drugs](https://img.shields.io/badge/database-49_drugs-7A5C3A?style=flat-square)](https://github.com/Londopy/drugdose)
+<div align="center">
 
-Weight-based dose calculator (mg/kg, mcg/kg, flat) with pediatric caps, IV drip-rate math (any rate unit → mL/hr pump rate + bag duration), **39 curated drug-interaction rules** with severity + management guidance, allergy + cross-reactivity matching, contraindication flags, and a 49-drug bundled database spanning EMS, cardiac, anesthesia, ICU, antibiotics, and toxicology. Pure Python, only `rich` + `click` as deps.
 
-### 🩺 &nbsp; [vitalscore](https://github.com/Londopy/vitalscore) — Clinical scoring calculators for Python
-[![PyPI](https://img.shields.io/pypi/v/vitalscore?color=D97706&style=flat-square)](https://pypi.org/project/vitalscore/) [![License: MIT](https://img.shields.io/badge/License-MIT-4A7B3E?style=flat-square)](https://github.com/Londopy/vitalscore) [![Python](https://img.shields.io/badge/core-Python-7A5C3A?style=flat-square&logo=rust&logoColor=white)](https://github.com/Londopy/ValoTracker)
-
-Provides typed, validated implementations of the clinical scoring tools used in emergency medicine, critical care, and pre-hospital settings — all exposed as clean Python dataclasses with interpretation strings built in.
-
-### 🧗 &nbsp; [ropesim](https://github.com/Londopy/ValoTracker) — climbing rope physics engine
-[![PyPI](https://img.shields.io/pypi/v/ropesim?color=D97706&style=flat-square)](https://pypi.org/project/ValoTracker/) [![Rust](https://img.shields.io/badge/core-Rust-7A5C3A?style=flat-square&logo=rust&logoColor=white)](https://github.com/Londopy/ropesim) [![License: MIT](https://img.shields.io/badge/License-MIT-4A7B3E?style=flat-square)](https://github.com/Londopy/ropesim/blob/main/LICENSE)
-
-UIAA 101 / EN 892 impact-force modelling with a damped-spring RK4 integrator written in **Rust** and exposed to Python via **PyO3 / Maturin**. Ships a 20+ command CLI, a **PySide6 desktop GUI** with a 3D Vispy viewport, optional **Rapier3D** capsule-chain rope simulation, parallel batch sweeps via Rayon, a 25-rope database, and guide-mode belay device math. Built because I wanted to know what actually happens during a factor-2 fall.
-
-### 🎮 &nbsp; [ValoTracker](https://github.com/Londopy/ValoTracker) — A fast, privacy-first Valorant match tracker written in Rust
-[![PyPI](https://img.shields.io/pypi/v/ValoTracker?color=D97706&style=flat-square)](https://pypi.org/project/ValoTracker/) [![Rust](https://img.shields.io/badge/core-Rust-7A5C3A?style=flat-square&logo=rust&logoColor=white)](https://github.com/Londopy/ValoTracker) [![License: MIT](https://img.shields.io/badge/License-MIT-4A7B3E?style=flat-square)](https://github.com/Londopy/ValoTracker/blob/main/LICENSE)
-
-Real-time VALORANT match tracker — view live player ranks, stats, agents, and party info.
-
+</div>
 
 ---
 
@@ -130,15 +116,12 @@ londo@dev:~$ contributions --animate
 
 ---
 
-## 🤙 &nbsp; how I work
-
-- Build because the problem is interesting, not for the resume.
-
-
 <div align="center">
 
 ```
 freshman year. just getting started.
 ```
+
+**[londopy.github.io](https://londopy.github.io)** &nbsp;·&nbsp; discord `_londo`
 
 </div>
