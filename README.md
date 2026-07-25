@@ -18,7 +18,7 @@
 
 ## 👋 &nbsp; about
 
-I build tools for **climbing**, **medicine**, **Windows internals**, and **myself**. California kid, freshman in college, writing Python between surf sessions and rock climbs. Most of what's here started because something annoyed me on a trail or in the field — a rope question, a pre-hospital protocol, a screen-capture API doing something I didn't ask for — so I built the tool.
+I build tools for **climbing**, **medicine**, **Windows internals**, and **myself**. California kid, freshman in college, writing code between surf sessions and rock climbs. Most of what's here started because something annoyed me on a trail or in the field — a rope question, a pre-hospital protocol, a screen-capture API doing something I didn't ask for — so I built the tool.
 
 Rust and Python, mostly. Half of it is libraries, half is GUIs, occasionally it's a Rust core that makes the whole thing 100× faster.
 
