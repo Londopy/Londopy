@@ -1,0 +1,56 @@
+# ============================================================================
+#  summary-cards.yml
+#  ----------------------------------------------------------------------------
+#  Generates profile stat cards (commits, languages, productive hours) as SVGs
+#  committed into `profile-summary-card-output/` on main.
+#
+#  Why this instead of github-readme-stats?
+#    The shared github-readme-stats / summary-cards Vercel instances are
+#    chronically rate-limited by the GitHub API and regularly return 503.
+#    Generating the SVGs here means they're served from raw.githubusercontent
+#    alongside your 3D contrib SVGs — same reliability as the rest of the repo.
+#
+#  Output (one folder per theme):
+#    profile-summary-card-output/gruvbox/0-profile-details.svg
+#                                       /1-repos-per-language.svg
+#                                       /2-most-commit-language.svg
+#                                       /3-stats.svg
+#                                       /4-productive-time.svg
+#
+#  The README embeds the `gruvbox` set — warm oranges/browns, closest to the
+#  amber palette. Swap the folder name in the README to try another theme;
+#  every supported theme is generated, so they're all already there.
+#
+#  Permissions needed: contents: write. No secrets beyond GITHUB_TOKEN.
+# ============================================================================
+
+name: Generate profile summary cards
+
+on:
+  schedule:
+    - cron: "30 0 * * *"    # 00:30 UTC, staggered off the other profile jobs
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  summary-cards:
+    name: Generate summary cards
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Generate cards
+        uses: vn7n24fzkq/github-profile-summary-cards@release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          USERNAME: ${{ github.repository_owner }}
+          # Pacific time — makes the "productive time" card reflect your hours,
+          # not UTC. -8 for PST; switch to -7 if you'd rather track PDT.
+          UTC_OFFSET: -8

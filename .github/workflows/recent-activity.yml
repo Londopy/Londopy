@@ -1,0 +1,42 @@
+# ============================================================================
+#  recent-activity.yml
+#  ----------------------------------------------------------------------------
+#  Fills the <!--START_SECTION:activity--> block in README.md with your five
+#  most recent public GitHub events (pushes, PRs, issues, stars, releases).
+#
+#  No secrets to configure — uses the default GITHUB_TOKEN.
+#
+#  Requires: Settings → Actions → General → Workflow permissions
+#            set to "Read and write permissions".
+# ============================================================================
+
+name: Update recent activity
+
+on:
+  schedule:
+    # Every 6 hours. Public events are only kept ~90 days by GitHub, so a
+    # frequent-ish cadence keeps the list from going stale.
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  activity:
+    name: Refresh activity feed
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Update README activity section
+        uses: jamesgeorge007/github-activity-readme@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          COMMIT_MSG: "chore(profile): refresh recent activity"
+          MAX_LINES: 5
