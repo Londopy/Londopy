@@ -24,11 +24,14 @@ name: Refresh download badges
 
 on:
   schedule:
-    - cron: "45 0 * * *"     # 00:45 UTC, staggered off the other profile jobs
+    - cron: "0 3 * * *"      # 03:00 UTC — staggered clear of the other jobs
   workflow_dispatch:
-  push:
-    branches:
-      - main
+
+# Every workflow that writes to main shares this group, so they queue instead
+# of racing each other.
+concurrency:
+  group: profile-main-writes
+  cancel-in-progress: false
 
 jobs:
   badges:
@@ -99,10 +102,23 @@ jobs:
           print(f"\n  TOTAL {total:,}/month across {len(PACKAGES)} packages")
           PY
 
-      - name: Commit & push
+      - name: Commit & push (rebase-safe)
         run: |
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config --local user.name  "github-actions[bot]"
           git add badges/
-          git commit -m "chore(profile): refresh download badges" || true
-          git push
+          if git diff --staged --quiet; then
+            echo "nothing changed — nothing to do"
+            exit 0
+          fi
+          git commit -m "chore(profile): refresh download badges"
+          for i in 1 2 3 4 5; do
+            if git pull --rebase --autostash origin main && git push; then
+              echo "pushed on attempt $i"
+              exit 0
+            fi
+            echo "push attempt $i failed — someone else got there first, retrying"
+            sleep $(( (RANDOM % 10) + 5 ))
+          done
+          echo "::error::push failed after 5 attempts"
+          exit 1

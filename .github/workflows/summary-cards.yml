@@ -1,14 +1,14 @@
 # ============================================================================
 #  summary-cards.yml
 #  ----------------------------------------------------------------------------
-#  Generates profile stat cards (commits, languages, productive hours) as SVGs
-#  committed into `profile-summary-card-output/` on main.
+#  Generates profile stat cards as SVGs committed into
+#  `profile-summary-card-output/` on main.
 #
-#  Why this instead of github-readme-stats?
-#    The shared github-readme-stats / summary-cards Vercel instances are
-#    chronically rate-limited by the GitHub API and regularly return 503.
-#    Generating the SVGs here means they're served from raw.githubusercontent
-#    alongside your 3D contrib SVGs — same reliability as the rest of the repo.
+#  NOTE ON AUTO_PUSH
+#    The action defaults to AUTO_PUSH: true and pushes to main itself, with no
+#    rebase. When several profile workflows run at once they all check out the
+#    same SHA and only the first push wins — the rest die on non-fast-forward.
+#    So we set AUTO_PUSH: false and do the push here, with a rebase-retry loop.
 #
 #  Output (one folder per theme):
 #    profile-summary-card-output/gruvbox/0-profile-details.svg
@@ -17,22 +17,21 @@
 #                                       /3-stats.svg
 #                                       /4-productive-time.svg
 #
-#  The README embeds the `gruvbox` set — warm oranges/browns, closest to the
-#  amber palette. Swap the folder name in the README to try another theme;
-#  every supported theme is generated, so they're all already there.
-#
-#  Permissions needed: contents: write. No secrets beyond GITHUB_TOKEN.
+#  Permissions needed: contents: write.
 # ============================================================================
 
 name: Generate profile summary cards
 
 on:
   schedule:
-    - cron: "30 0 * * *"    # 00:30 UTC, staggered off the other profile jobs
+    - cron: "30 1 * * *"     # 01:30 UTC — staggered clear of the other jobs
   workflow_dispatch:
-  push:
-    branches:
-      - main
+
+# Every workflow that writes to main shares this group, so they queue instead
+# of racing each other.
+concurrency:
+  group: profile-main-writes
+  cancel-in-progress: false
 
 jobs:
   summary-cards:
@@ -51,6 +50,26 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           USERNAME: ${{ github.repository_owner }}
-          # Pacific time — makes the "productive time" card reflect your hours,
-          # not UTC. -8 for PST; switch to -7 if you'd rather track PDT.
-          UTC_OFFSET: -8
+          UTC_OFFSET: "-8"        # Pacific. Use "-7" if you'd rather track PDT.
+          AUTO_PUSH: false        # we push below instead — see note above
+
+      - name: Commit & push (rebase-safe)
+        run: |
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --local user.name  "github-actions[bot]"
+          git add profile-summary-card-output/
+          if git diff --staged --quiet; then
+            echo "no card changes — nothing to do"
+            exit 0
+          fi
+          git commit -m "chore(profile): refresh summary cards"
+          for i in 1 2 3 4 5; do
+            if git pull --rebase --autostash origin main && git push; then
+              echo "pushed on attempt $i"
+              exit 0
+            fi
+            echo "push attempt $i failed — someone else got there first, retrying"
+            sleep $(( (RANDOM % 10) + 5 ))
+          done
+          echo "::error::push failed after 5 attempts"
+          exit 1
