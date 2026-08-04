@@ -1,0 +1,192 @@
+# ============================================================================
+#  profile-data.yml
+#  ----------------------------------------------------------------------------
+#  Two jobs' worth of work in one pass, because both write to README/badges and
+#  there's no reason to make them race:
+#
+#    1. DOWNLOAD BADGES — writes shields.io "endpoint" JSON per PyPI package
+#       into badges/. Embedded with:
+#         https://img.shields.io/endpoint?url=<urlencoded raw link to badges/<pkg>.json>
+#
+#       Why not img.shields.io/pepy/dt/<pkg> directly? pepy rate-limits hard —
+#       with several download badges on one page most visitors get "rate limited
+#       by upstream service" instead of a number. Generating the JSON here means
+#       shields only ever reads raw.githubusercontent, which doesn't.
+#
+#    2. RECENTLY SHIPPED — rewrites the block between
+#         <!--START_SECTION:releases--> and <!--END_SECTION:releases-->
+#       in README.md with the newest tagged releases across all public repos.
+#
+#       This replaced a github-activity-readme feed that could only render 5 of
+#       the last 100 public events (it ignores PushEvent, which was 90 of them),
+#       and what it did show came from a repo that isn't featured anywhere.
+#       Releases are both richer and better evidence of actually shipping.
+#
+#  Permissions needed: contents: write. No secrets beyond GITHUB_TOKEN.
+# ============================================================================
+
+name: Refresh profile data
+
+on:
+  schedule:
+    - cron: "0 3 * * *"      # 03:00 UTC — staggered clear of the other jobs
+  workflow_dispatch:
+
+# Every workflow that writes to main shares this group, so they queue instead
+# of racing each other.
+concurrency:
+  group: profile-main-writes
+  cancel-in-progress: false
+
+jobs:
+  profile-data:
+    name: Build badges and releases
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Fetch download counts and write badge JSON
+        run: |
+          python3 - <<'PY'
+          import json, os, time, urllib.request
+
+          PACKAGES = [
+              "ropesim", "patchnotes", "deadpoint", "drugdose",
+              "timefuzz", "pygeospy", "vitalscore",
+              "hide-desktop-apps", "akribia", "valotracker",
+          ]
+          COLOR = "D97706"
+          os.makedirs("badges", exist_ok=True)
+
+          def human(n):
+              if n >= 1_000_000:
+                  return f"{n/1_000_000:.1f}M".replace(".0M", "M")
+              if n >= 1_000:
+                  return f"{n/1_000:.1f}k".replace(".0k", "k")
+              return str(n)
+
+          total = 0
+          for pkg in PACKAGES:
+              try:
+                  req = urllib.request.Request(
+                      f"https://pypistats.org/api/packages/{pkg}/recent",
+                      headers={"User-Agent": "Londopy-profile-badges"})
+                  with urllib.request.urlopen(req, timeout=30) as r:
+                      count = json.load(r)["data"]["last_month"]
+              except Exception as e:
+                  print(f"  !! {pkg}: {e} — leaving existing badge alone")
+                  continue
+              total += count
+              with open(f"badges/{pkg}.json", "w") as f:
+                  json.dump({"schemaVersion": 1, "label": "downloads",
+                             "message": f"{human(count)}/month", "color": COLOR}, f)
+              print(f"  {pkg:<20} {count:>8,}/month")
+              time.sleep(2)
+
+          with open("badges/_total.json", "w") as f:
+              json.dump({"schemaVersion": 1, "label": "PyPI downloads",
+                         "message": f"{human(total)}/month", "color": "4A7B3E"}, f)
+          print(f"\n  TOTAL {total:,}/month across {len(PACKAGES)} packages")
+          PY
+
+      - name: Rewrite the "recently shipped" block
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python3 - <<'PY'
+          import json, os, re, urllib.request
+          from datetime import datetime, timezone
+
+          OWNER = "Londopy"
+          MAX   = 6                      # how many releases to list
+          TOKEN = os.environ["GITHUB_TOKEN"]
+
+          def api(url):
+              req = urllib.request.Request(url, headers={
+                  "Authorization": f"Bearer {TOKEN}",
+                  "Accept": "application/vnd.github+json",
+                  "User-Agent": "Londopy-profile",
+              })
+              with urllib.request.urlopen(req, timeout=30) as r:
+                  return json.load(r)
+
+          repos = []
+          page = 1
+          while True:
+              batch = api(f"https://api.github.com/users/{OWNER}/repos?per_page=100&page={page}")
+              if not batch:
+                  break
+              repos += [r for r in batch if not r["fork"]]
+              page += 1
+
+          rels = []
+          for r in repos:
+              try:
+                  rel = api(f"https://api.github.com/repos/{r['full_name']}/releases/latest")
+              except Exception:
+                  continue                        # no releases on this repo
+              if "tag_name" not in rel:
+                  continue
+              rels.append({
+                  "repo": r["name"],
+                  "url":  r["html_url"],
+                  "tag":  rel["tag_name"],
+                  "rel_url": rel["html_url"],
+                  "at":   datetime.fromisoformat(rel["published_at"].replace("Z", "+00:00")),
+              })
+
+          rels.sort(key=lambda x: x["at"], reverse=True)
+          rels = rels[:MAX]
+
+          def ago(dt):
+              d = (datetime.now(timezone.utc) - dt).days
+              if d <= 0:  return "today"
+              if d == 1:  return "yesterday"
+              if d < 30:  return f"{d} days ago"
+              if d < 60:  return "last month"
+              return f"{d // 30} months ago"
+
+          lines = [
+              f"- **[{x['repo']}]({x['url']})** [`{x['tag']}`]({x['rel_url']}) — {ago(x['at'])}"
+              for x in rels
+          ]
+          block = "\n".join(lines) if lines else "_no tagged releases yet_"
+
+          p = "README.md"
+          src = open(p, encoding="utf-8").read()
+          new = re.sub(
+              r"(<!--START_SECTION:releases-->)(.*?)(<!--END_SECTION:releases-->)",
+              lambda m: f"{m.group(1)}\n{block}\n{m.group(3)}",
+              src, flags=re.DOTALL)
+          if new != src:
+              open(p, "w", encoding="utf-8").write(new)
+              print("README release block updated:")
+          else:
+              print("README unchanged (markers missing?):")
+          print(block)
+          PY
+
+      - name: Commit & push (rebase-safe)
+        run: |
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --local user.name  "github-actions[bot]"
+          git add badges/ README.md
+          if git diff --staged --quiet; then
+            echo "nothing changed — nothing to do"
+            exit 0
+          fi
+          git commit -m "chore(profile): refresh download badges and releases"
+          for i in 1 2 3 4 5; do
+            if git pull --rebase --autostash origin main && git push; then
+              echo "pushed on attempt $i"
+              exit 0
+            fi
+            echo "push attempt $i failed — someone else got there first, retrying"
+            sleep $(( (RANDOM % 10) + 5 ))
+          done
+          echo "::error::push failed after 5 attempts"
+          exit 1

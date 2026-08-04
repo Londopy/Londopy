@@ -227,11 +227,11 @@ londo@dev:~$ contributions --animate
 
 ---
 
-## 📡 &nbsp; recent activity
+## 🚚 &nbsp; recently shipped
 
-<!--START_SECTION:activity-->
-1. 🎉 Merged PR [#20](https://github.com/The-animus-project/Orc-Torrent/pull/20) in [The-animus-project/Orc-Torrent](https://github.com/The-animus-project/Orc-Torrent)
-<!--END_SECTION:activity-->
+<!--START_SECTION:releases-->
+<!-- filled in nightly by .github/workflows/profile-data.yml -->
+<!--END_SECTION:releases-->
 
 ---
 
