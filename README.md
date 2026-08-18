@@ -230,12 +230,12 @@ londo@dev:~$ contributions --animate
 ## 🚚 &nbsp; recently shipped
 
 <!--START_SECTION:releases-->
-- **[patchnotes](https://github.com/Londopy/patchnotes)** [`v2.6.0`](https://github.com/Londopy/patchnotes/releases/tag/v2.6.0) — 12 days ago
-- **[akribia](https://github.com/Londopy/akribia)** [`v0.1.4`](https://github.com/Londopy/akribia/releases/tag/v0.1.4) — 12 days ago
-- **[HideDesktopApps](https://github.com/Londopy/HideDesktopApps)** [`v1.2.2`](https://github.com/Londopy/HideDesktopApps/releases/tag/v1.2.2) — 14 days ago
-- **[pygeospy](https://github.com/Londopy/pygeospy)** [`v0.2.2`](https://github.com/Londopy/pygeospy/releases/tag/v0.2.2) — 14 days ago
-- **[IEM-Tool-rs](https://github.com/Londopy/IEM-Tool-rs)** [`v1.3.0`](https://github.com/Londopy/IEM-Tool-rs/releases/tag/v1.3.0) — 28 days ago
-- **[ropesim](https://github.com/Londopy/ropesim)** [`v3.1.0`](https://github.com/Londopy/ropesim/releases/tag/v3.1.0) — last month
+- **[filekind](https://github.com/Londopy/filekind)** [`v0.5.1`](https://github.com/Londopy/filekind/releases/tag/v0.5.1) — today
+- **[patchnotes](https://github.com/Londopy/patchnotes)** [`v2.6.0`](https://github.com/Londopy/patchnotes/releases/tag/v2.6.0) — 13 days ago
+- **[akribia](https://github.com/Londopy/akribia)** [`v0.1.4`](https://github.com/Londopy/akribia/releases/tag/v0.1.4) — 13 days ago
+- **[HideDesktopApps](https://github.com/Londopy/HideDesktopApps)** [`v1.2.2`](https://github.com/Londopy/HideDesktopApps/releases/tag/v1.2.2) — 15 days ago
+- **[pygeospy](https://github.com/Londopy/pygeospy)** [`v0.2.2`](https://github.com/Londopy/pygeospy/releases/tag/v0.2.2) — 15 days ago
+- **[IEM-Tool-rs](https://github.com/Londopy/IEM-Tool-rs)** [`v1.3.0`](https://github.com/Londopy/IEM-Tool-rs/releases/tag/v1.3.0) — 29 days ago
 <!--END_SECTION:releases-->
 
 ---
