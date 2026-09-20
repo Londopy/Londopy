@@ -6,13 +6,13 @@
 &nbsp;
 <img src="https://img.shields.io/badge/PyPI-10_packages_shipped-4A7B3E?style=flat-square&logo=pypi&logoColor=white"/>
 &nbsp;
-<img src="https://img.shields.io/badge/21_projects-9_domains-D97706?style=flat-square"/>
+<img src="https://img.shields.io/badge/32_projects-11_domains-D97706?style=flat-square"/>
 &nbsp;
 <img src="https://img.shields.io/badge/stack-Python_%2F_Rust-7A5C3A?style=flat-square"/>
 
 ### 🌐 &nbsp; [**londopy.github.io**](https://londopy.github.io)
 
-*the full, filterable project index — grouped by domain, with per-project writeups*
+*the full, filterable project index — grouped by domain, with per-project writeups — plus a live feed of my open-source pull requests*
 
 </div>
 
@@ -26,7 +26,7 @@ I build tools for **climbing**, **medicine**, **Windows internals**, and **mysel
 
 Rust and Python, mostly. Half of it is libraries, half is GUIs, occasionally it's a Rust core that makes the whole thing 100× faster.
 
-> **into right now** — geospatial / OSINT · purple-team RNG analysis · small sharp Python libraries · climbing rope dynamics
+> **into right now** — a language of my own (nexium) · gesture-driven instruments · geospatial / OSINT · purple-team RNG analysis · climbing rope dynamics
 >
 > **outside the keyboard** — skiing the sierras · surfing the coast · trad climbing anywhere I can drive to
 
@@ -36,12 +36,17 @@ Rust and Python, mostly. Half of it is libraries, half is GUIs, occasionally it'
 
 ## 🛠️ &nbsp; featured
 
-> Four in depth, four in brief. The **[full index of 21 projects across 9 domains lives on the site »](https://londopy.github.io)** — filterable by tag and language, with writeups.
+> The pieces that show the range. The **[full index of 32 projects across 11 domains lives on the site »](https://londopy.github.io)** — filterable by tag and language, with writeups.
 
 ### 🖥️ &nbsp; [capture-bypass](https://github.com/Londopy/capture-bypass) — Windows screen-capture bypass
 [![stars](https://img.shields.io/github/stars/Londopy/capture-bypass?style=flat-square&color=D97706&logo=github&logoColor=white)](https://github.com/Londopy/capture-bypass) [![downloads](https://img.shields.io/github/downloads/Londopy/capture-bypass/total?style=flat-square&color=4A7B3E&label=downloads)](https://github.com/Londopy/capture-bypass/releases) [![release](https://img.shields.io/github/v/release/Londopy/capture-bypass?style=flat-square&color=7A5C3A)](https://github.com/Londopy/capture-bypass/releases/latest) [![Rust 1.78+](https://img.shields.io/badge/rust-1.78%2B-7A5C3A?style=flat-square&logo=rust&logoColor=white)](https://github.com/Londopy/capture-bypass) [![Windows 10/11](https://img.shields.io/badge/platform-Windows_10%2F11-4A7B3E?style=flat-square&logo=windows&logoColor=white)](https://github.com/Londopy/capture-bypass) [![writeup »](https://img.shields.io/badge/writeup-%C2%BB-D97706?style=flat-square)](https://londopy.github.io/projects/capture-bypass/)
 
 Clears `WDA_EXCLUDEFROMCAPTURE` by DLL injection, so windows that opted out of screen capture show up again. Multi-crate Cargo workspace, egui GUI, Inno installer.
+
+### ⚙️ &nbsp; [nexium](https://github.com/Londopy/nexium) — a programming language of my own
+[![stars](https://img.shields.io/github/stars/Londopy/nexium?style=flat-square&color=D97706&logo=github&logoColor=white)](https://github.com/Londopy/nexium) [![compiler: Zig](https://img.shields.io/badge/compiler-Zig-7A5C3A?style=flat-square&logo=zig&logoColor=white)](https://github.com/Londopy/nexium) [![native via C](https://img.shields.io/badge/native-via_C-4A7B3E?style=flat-square)](https://github.com/Londopy/nexium) [![writeup »](https://img.shields.io/badge/writeup-%C2%BB-D97706?style=flat-square)](https://londopy.github.io/projects/nexium/)
+
+Compiles to native code through C, with automatic reference counting — no tracing collector — and a machine-checked effect system that says whether a function allocates, blocks, or can panic. One source tree ships as a C library, a Python wheel, a Rust crate, or a CLI, all from `nx ship`.
 
 ### 📝 &nbsp; [patchnotes](https://github.com/Londopy/patchnotes) — changelog parser for CI
 [![stars](https://img.shields.io/github/stars/Londopy/patchnotes?style=flat-square&color=D97706&logo=github&logoColor=white)](https://github.com/Londopy/patchnotes) [![downloads](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FLondopy%2FLondopy%2Fmain%2Fbadges%2Fpatchnotes.json&style=flat-square&cacheSeconds=3600)](https://pepy.tech/project/patchnotes) [![PyPI](https://img.shields.io/pypi/v/patchnotes?color=7A5C3A&style=flat-square&logo=pypi&logoColor=white)](https://pypi.org/project/patchnotes/) [![dependencies](https://img.shields.io/badge/dependencies-0-4A7B3E?style=flat-square)](https://github.com/Londopy/patchnotes) [![typed](https://img.shields.io/badge/typed-yes-7A5C3A?style=flat-square)](https://github.com/Londopy/patchnotes) [![writeup »](https://img.shields.io/badge/writeup-%C2%BB-D97706?style=flat-square)](https://londopy.github.io/projects/patchnotes/)
@@ -73,6 +78,15 @@ EMS & clinical dosing calculator. Weight-based dosing against a bundled 49-drug 
 
 **🪟 [HideDesktopApps](https://github.com/Londopy/HideDesktopApps)** &nbsp;[![release](https://img.shields.io/github/v/release/Londopy/HideDesktopApps?style=flat-square&color=4A7B3E)](https://github.com/Londopy/HideDesktopApps/releases/latest) [![winget](https://img.shields.io/badge/winget-Londopy.HideDesktopApps-7A5C3A?style=flat-square&logo=windows&logoColor=white)](https://github.com/Londopy/HideDesktopApps) [![Scoop](https://img.shields.io/badge/scoop-available-7A5C3A?style=flat-square)](https://github.com/Londopy/HideDesktopApps)
 Tray daemon that hides desktop icons, taskbar, and every window on a hotkey. For ricing, Wallpaper Engine, and not flashing your desktop mid-presentation. Ships through winget *and* Scoop. &nbsp;[writeup »](https://londopy.github.io/projects/HideDesktopApps/)
+
+**🎹 [gesture-synth](https://github.com/Londopy/gesture-synth)** &nbsp;[![stars](https://img.shields.io/github/stars/Londopy/gesture-synth?style=flat-square&color=D97706&logo=github&logoColor=white)](https://github.com/Londopy/gesture-synth) [![demo](https://img.shields.io/badge/demo-live-D97706?style=flat-square)](https://gesture-synth.onrender.com/) [![TypeScript + Rust](https://img.shields.io/badge/TS_%2B_Rust-7A5C3A?style=flat-square)](https://github.com/Londopy/gesture-synth)
+A chord instrument you play with your hands in front of a camera — MediaPipe hand-tracking drives the synth, a loop pedal layers four tracks, and the harmony is drawn back at you in 3D. One codebase spanning Rust/WASM, Svelte + Three.js, a Tauri app, a Zig DSP kernel, and a Gleam service. &nbsp;[writeup »](https://londopy.github.io/projects/gesture-synth/)
+
+**🏔️ [whumpf](https://github.com/Londopy/whumpf)** &nbsp;[![stars](https://img.shields.io/github/stars/Londopy/whumpf?style=flat-square&color=D97706&logo=github&logoColor=white)](https://github.com/Londopy/whumpf) [![WebGL / GLSL](https://img.shields.io/badge/WebGL-GLSL-7A5C3A?style=flat-square)](https://github.com/Londopy/whumpf)
+Avalanche bulletins projected onto the real mountain in 3D. Slope, aspect, and elevation are packed into RGBA tiles and filtered in a GLSL shader, so a whole range recomputes as you drag a danger slider — answering the question the bulletin doesn't: *is the slope in front of me one of those slopes?* &nbsp;[writeup »](https://londopy.github.io/projects/whumpf/)
+
+**🗂️ [filekind](https://github.com/Londopy/filekind)** &nbsp;[![stars](https://img.shields.io/github/stars/Londopy/filekind?style=flat-square&color=D97706&logo=github&logoColor=white)](https://github.com/Londopy/filekind) [![Rust](https://img.shields.io/badge/core-Rust-7A5C3A?style=flat-square&logo=rust&logoColor=white)](https://github.com/Londopy/filekind)
+Make a custom file extension a real, recognised file type — on Windows, Linux and macOS — from one declarative spec. Generates the registry tree, freedesktop MIME XML, macOS UTI plist, icons in three formats, and the install/remove scripts. &nbsp;[writeup »](https://londopy.github.io/projects/filekind/)
 
 ---
 
@@ -151,17 +165,29 @@ mindmap
       Clinical_IQ
       akribia
       DiresQ
-    Climbing & physics
+    Climbing & outdoors
       ropesim
+      whumpf
       apollo-rope-memory
     Geospatial / OSINT
       pygeospy
     Networking & privacy
       qbit-killswitch
       mullvad-wg-monitor
-    Dev tooling
+      beam
+    Dev tooling & languages
+      nexium
       patchnotes
       timefuzz
+      filekind
+    Claude Code tooling
+      skill-rollcall
+      mcp-rollcall
+      settings-effective
+      git-attribution
+    Audio & instruments
+      gesture-synth
+      IEM-Tool-rs
     AI & vision
       facial-recognition
       convo-generator
@@ -169,7 +195,7 @@ mindmap
       ValoTracker
 ```
 
-<sub>same nine domains the <a href="https://londopy.github.io">site</a> groups by — click through there to filter by tag or language</sub>
+<sub>the same domains the <a href="https://londopy.github.io">site</a> groups by — click through there to filter by tag or language</sub>
 
 </details>
 
