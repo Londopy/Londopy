@@ -182,7 +182,7 @@ mindmap
       patchnotes
       timefuzz
       filekind
-    Claude Code tooling
+    Agent tooling
       skill-rollcall
       mcp-rollcall
       settings-effective
