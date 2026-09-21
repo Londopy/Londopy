@@ -30,7 +30,7 @@ Rust and Python, mostly. Half of it is libraries, half is GUIs, occasionally it'
 >
 > **outside the keyboard** — skiing the sierras · surfing the coast · trad climbing anywhere I can drive to
 
-**reach me →** discord `_londo.` &nbsp;·&nbsp; irc `Londopy` on [libera.chat](https://libera.chat) &nbsp;·&nbsp; [send a message »](https://londopy.github.io/contact/)
+**reach me →** discord `_londo.` &nbsp;·&nbsp; irc `Londopy` @ `irc.libera.chat` &nbsp;·&nbsp; [send a message »](https://londopy.github.io/contact/)
 
 ---
 
