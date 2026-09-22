@@ -6,7 +6,7 @@
 &nbsp;
 <img src="https://img.shields.io/badge/PyPI-10_packages_shipped-4A7B3E?style=flat-square&logo=pypi&logoColor=white"/>
 &nbsp;
-<img src="https://img.shields.io/badge/33_projects-11_domains-D97706?style=flat-square"/>
+<img src="https://img.shields.io/badge/34_projects-11_domains-D97706?style=flat-square"/>
 &nbsp;
 <img src="https://img.shields.io/badge/stack-Python_%2F_Rust-7A5C3A?style=flat-square"/>
 
@@ -38,7 +38,7 @@ Rust and Python, mostly. Half of it is libraries, half is GUIs, occasionally it'
 
 ## 🛠️ &nbsp; featured
 
-> The pieces that show the range. The **[full index of 33 projects across 11 domains lives on the site »](https://londopy.github.io)** — filterable by tag and language, with writeups.
+> The pieces that show the range. The **[full index of 34 projects across 11 domains lives on the site »](https://londopy.github.io)** — filterable by tag and language, with writeups.
 
 ### 🖥️ &nbsp; [capture-bypass](https://github.com/Londopy/capture-bypass) — Windows screen-capture bypass
 [![stars](https://img.shields.io/github/stars/Londopy/capture-bypass?style=flat-square&color=D97706&logo=github&logoColor=white)](https://github.com/Londopy/capture-bypass) [![downloads](https://img.shields.io/github/downloads/Londopy/capture-bypass/total?style=flat-square&color=4A7B3E&label=downloads)](https://github.com/Londopy/capture-bypass/releases) [![release](https://img.shields.io/github/v/release/Londopy/capture-bypass?style=flat-square&color=7A5C3A)](https://github.com/Londopy/capture-bypass/releases/latest) [![Rust 1.78+](https://img.shields.io/badge/rust-1.78%2B-7A5C3A?style=flat-square&logo=rust&logoColor=white)](https://github.com/Londopy/capture-bypass) [![Windows 10/11](https://img.shields.io/badge/platform-Windows_10%2F11-4A7B3E?style=flat-square&logo=windows&logoColor=white)](https://github.com/Londopy/capture-bypass) [![writeup »](https://img.shields.io/badge/writeup-%C2%BB-D97706?style=flat-square)](https://londopy.github.io/projects/capture-bypass/)
@@ -89,6 +89,9 @@ Avalanche bulletins projected onto the real mountain in 3D. Slope, aspect, and e
 
 **🗂️ [filekind](https://github.com/Londopy/filekind)** &nbsp;[![stars](https://img.shields.io/github/stars/Londopy/filekind?style=flat-square&color=D97706&logo=github&logoColor=white)](https://github.com/Londopy/filekind) [![Rust](https://img.shields.io/badge/core-Rust-7A5C3A?style=flat-square&logo=rust&logoColor=white)](https://github.com/Londopy/filekind)
 Make a custom file extension a real, recognised file type — on Windows, Linux and macOS — from one declarative spec. Generates the registry tree, freedesktop MIME XML, macOS UTI plist, icons in three formats, and the install/remove scripts. &nbsp;[writeup »](https://londopy.github.io/projects/filekind/)
+
+**🌱 [point-of-origin](https://github.com/Londopy/point-of-origin)** &nbsp;[![play on itch.io](https://img.shields.io/badge/▶_play_in_browser-itch.io-D97706?style=flat-square)](https://londopy.itch.io/point-of-origin) [![Unity 6](https://img.shields.io/badge/Unity_6-7A5C3A?style=flat-square&logo=unity&logoColor=white)](https://github.com/Londopy/point-of-origin) [![Odin + Nexium](https://img.shields.io/badge/Odin_%2B_Nexium-4FD1C5?style=flat-square)](https://github.com/Londopy/nexium)
+A side-scrolling platformer where the puzzle *is* the ground. Your lantern shows only the ghost of what grew here, so you run the ruins to learn its shape — then find the cell it started from, plant a seed, and grow it back. A reverse cellular automaton: an Odin simulation DLL, Nexium build tooling, Unity 6. Made for CPGD's World's First Game Jam. &nbsp;[play it »](https://londopy.itch.io/point-of-origin)
 
 ---
 
