@@ -14,6 +14,10 @@
 
 *the full, filterable project index — grouped by domain, with per-project writeups — plus a live feed of my open-source pull requests*
 
+### ✍️ &nbsp; [**londopy.github.io/blog**](https://londopy.github.io/blog/)
+
+*notes on security, systems, radio, and building things*
+
 </div>
 
 ---
