@@ -261,12 +261,12 @@ londo@dev:~$ contributions --animate
 ## 🚚 &nbsp; recently shipped
 
 <!--START_SECTION:releases-->
-- **[nexium](https://github.com/Londopy/nexium)** [`v1.2.1`](https://github.com/Londopy/nexium/releases/tag/v1.2.1) — today
-- **[statusmith](https://github.com/Londopy/statusmith)** [`v0.4.0`](https://github.com/Londopy/statusmith/releases/tag/v0.4.0) — yesterday
-- **[point-of-origin](https://github.com/Londopy/point-of-origin)** [`v1.1`](https://github.com/Londopy/point-of-origin/releases/tag/v1.1) — yesterday
-- **[git-attribution](https://github.com/Londopy/git-attribution)** [`v1.1.0`](https://github.com/Londopy/git-attribution/releases/tag/v1.1.0) — yesterday
-- **[settings-effective](https://github.com/Londopy/settings-effective)** [`v1.1.0`](https://github.com/Londopy/settings-effective/releases/tag/v1.1.0) — yesterday
-- **[mcp-rollcall](https://github.com/Londopy/mcp-rollcall)** [`v1.1.0`](https://github.com/Londopy/mcp-rollcall/releases/tag/v1.1.0) — yesterday
+- **[nexium](https://github.com/Londopy/nexium)** [`v1.3.0`](https://github.com/Londopy/nexium/releases/tag/v1.3.0) — today
+- **[statusmith](https://github.com/Londopy/statusmith)** [`v0.4.0`](https://github.com/Londopy/statusmith/releases/tag/v0.4.0) — 2 days ago
+- **[point-of-origin](https://github.com/Londopy/point-of-origin)** [`v1.1`](https://github.com/Londopy/point-of-origin/releases/tag/v1.1) — 2 days ago
+- **[git-attribution](https://github.com/Londopy/git-attribution)** [`v1.1.0`](https://github.com/Londopy/git-attribution/releases/tag/v1.1.0) — 2 days ago
+- **[settings-effective](https://github.com/Londopy/settings-effective)** [`v1.1.0`](https://github.com/Londopy/settings-effective/releases/tag/v1.1.0) — 2 days ago
+- **[mcp-rollcall](https://github.com/Londopy/mcp-rollcall)** [`v1.1.0`](https://github.com/Londopy/mcp-rollcall/releases/tag/v1.1.0) — 2 days ago
 <!--END_SECTION:releases-->
 
 ---
