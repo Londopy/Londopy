@@ -6,7 +6,7 @@
 &nbsp;
 <img src="https://img.shields.io/badge/PyPI-10_packages_shipped-4A7B3E?style=flat-square&logo=pypi&logoColor=white"/>
 &nbsp;
-<img src="https://img.shields.io/badge/36_projects-11_domains-D97706?style=flat-square"/>
+<a href="https://londopy.github.io/api/"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Flondopy.github.io%2Fapi%2Fv1%2Fbadges%2Fcatalog.json&style=flat-square" alt="projects and domains, live from the site's API"/></a>
 &nbsp;
 <img src="https://img.shields.io/badge/stack-Python_%2F_Rust-7A5C3A?style=flat-square"/>
 
@@ -42,7 +42,7 @@ Rust and Python, mostly. Half of it is libraries, half is GUIs, occasionally it'
 
 ## 🛠️ &nbsp; featured
 
-> The pieces that show the range. The **[full index of 36 projects across 11 domains lives on the site »](https://londopy.github.io)** — filterable by tag and language, with writeups.
+> The pieces that show the range. The **[full index of every project lives on the site »](https://londopy.github.io)** — grouped by domain, filterable by tag and language, with writeups.
 
 ### 🖥️ &nbsp; [capture-bypass](https://github.com/Londopy/capture-bypass) — Windows screen-capture bypass
 [![stars](https://img.shields.io/github/stars/Londopy/capture-bypass?style=flat-square&color=D97706&logo=github&logoColor=white)](https://github.com/Londopy/capture-bypass) [![downloads](https://img.shields.io/github/downloads/Londopy/capture-bypass/total?style=flat-square&color=4A7B3E&label=downloads)](https://github.com/Londopy/capture-bypass/releases) [![release](https://img.shields.io/github/v/release/Londopy/capture-bypass?style=flat-square&color=7A5C3A)](https://github.com/Londopy/capture-bypass/releases/latest) [![Rust 1.78+](https://img.shields.io/badge/rust-1.78%2B-7A5C3A?style=flat-square&logo=rust&logoColor=white)](https://github.com/Londopy/capture-bypass) [![Windows 10/11](https://img.shields.io/badge/platform-Windows_10%2F11-4A7B3E?style=flat-square&logo=windows&logoColor=white)](https://github.com/Londopy/capture-bypass) [![writeup »](https://img.shields.io/badge/writeup-%C2%BB-D97706?style=flat-square)](https://londopy.github.io/projects/capture-bypass/)
