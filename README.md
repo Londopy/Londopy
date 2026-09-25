@@ -6,7 +6,7 @@
 &nbsp;
 <img src="https://img.shields.io/badge/PyPI-10_packages_shipped-4A7B3E?style=flat-square&logo=pypi&logoColor=white"/>
 &nbsp;
-<img src="https://img.shields.io/badge/34_projects-11_domains-D97706?style=flat-square"/>
+<img src="https://img.shields.io/badge/36_projects-11_domains-D97706?style=flat-square"/>
 &nbsp;
 <img src="https://img.shields.io/badge/stack-Python_%2F_Rust-7A5C3A?style=flat-square"/>
 
@@ -42,7 +42,7 @@ Rust and Python, mostly. Half of it is libraries, half is GUIs, occasionally it'
 
 ## 🛠️ &nbsp; featured
 
-> The pieces that show the range. The **[full index of 34 projects across 11 domains lives on the site »](https://londopy.github.io)** — filterable by tag and language, with writeups.
+> The pieces that show the range. The **[full index of 36 projects across 11 domains lives on the site »](https://londopy.github.io)** — filterable by tag and language, with writeups.
 
 ### 🖥️ &nbsp; [capture-bypass](https://github.com/Londopy/capture-bypass) — Windows screen-capture bypass
 [![stars](https://img.shields.io/github/stars/Londopy/capture-bypass?style=flat-square&color=D97706&logo=github&logoColor=white)](https://github.com/Londopy/capture-bypass) [![downloads](https://img.shields.io/github/downloads/Londopy/capture-bypass/total?style=flat-square&color=4A7B3E&label=downloads)](https://github.com/Londopy/capture-bypass/releases) [![release](https://img.shields.io/github/v/release/Londopy/capture-bypass?style=flat-square&color=7A5C3A)](https://github.com/Londopy/capture-bypass/releases/latest) [![Rust 1.78+](https://img.shields.io/badge/rust-1.78%2B-7A5C3A?style=flat-square&logo=rust&logoColor=white)](https://github.com/Londopy/capture-bypass) [![Windows 10/11](https://img.shields.io/badge/platform-Windows_10%2F11-4A7B3E?style=flat-square&logo=windows&logoColor=white)](https://github.com/Londopy/capture-bypass) [![writeup »](https://img.shields.io/badge/writeup-%C2%BB-D97706?style=flat-square)](https://londopy.github.io/projects/capture-bypass/)
@@ -65,9 +65,9 @@ Parse, query, and validate Keep a Changelog markdown and YAML — then fail the 
 UIAA / EN 892 impact-force modelling. Damped-spring RK4 integrator in Rust, bound to Python through PyO3 / Maturin, wrapped in a CLI and a PySide6 3D GUI — four layers, three languages, one install.
 
 ### 🚨 &nbsp; [DiresQ](https://github.com/Skythe7/DiresQ) — disaster response that tracks the responders
-[![live site](https://img.shields.io/badge/live-site-D97706?style=flat-square)](https://skythe7.github.io/DiresQ/) [![tests](https://img.shields.io/badge/tests-501_passing-4A7B3E?style=flat-square)](https://github.com/Skythe7/DiresQ/actions) [![a11y](https://img.shields.io/badge/a11y-WCAG_2.1_AA_audited-7A5C3A?style=flat-square)](https://github.com/Skythe7/DiresQ) [![time parsing: timefuzz](https://img.shields.io/badge/time_parsing-timefuzz-D97706?style=flat-square)](https://github.com/Londopy/timefuzz) [![changelog checked by patchnotes](https://img.shields.io/badge/changelog_checked_by-patchnotes-D97706?style=flat-square)](https://github.com/Londopy/patchnotes) [![writeup »](https://img.shields.io/badge/writeup-%C2%BB-D97706?style=flat-square)](https://londopy.github.io/projects/DiresQ/)
+[![3rd place at Reverie Hacks 2026](https://img.shields.io/badge/%F0%9F%A5%89_3rd_place-Reverie_Hacks_2026-D08A4E?style=flat-square)](https://youtu.be/MbCTSaONuOM) [![live site](https://img.shields.io/badge/live-site-D97706?style=flat-square)](https://skythe7.github.io/DiresQ/) [![tests](https://img.shields.io/badge/tests-501_passing-4A7B3E?style=flat-square)](https://github.com/Skythe7/DiresQ/actions) [![a11y](https://img.shields.io/badge/a11y-WCAG_2.1_AA_audited-7A5C3A?style=flat-square)](https://github.com/Skythe7/DiresQ) [![time parsing: timefuzz](https://img.shields.io/badge/time_parsing-timefuzz-D97706?style=flat-square)](https://github.com/Londopy/timefuzz) [![changelog checked by patchnotes](https://img.shields.io/badge/changelog_checked_by-patchnotes-D97706?style=flat-square)](https://github.com/Londopy/patchnotes) [![writeup »](https://img.shields.io/badge/writeup-%C2%BB-D97706?style=flat-square)](https://londopy.github.io/projects/DiresQ/)
 
-Every disaster app tells you where the disaster is — this one tracks the people going *into* it. Join a report, check in on a timer, and the accountability board turns red if you go dark. Reports and check-ins work offline, and the whole thing runs without JavaScript. It parses times with [timefuzz](https://github.com/Londopy/timefuzz) and validates its changelog with [patchnotes](https://github.com/Londopy/patchnotes) — two of my own libraries. Built at Katy Youth Hacks 2026 with [@Skythe7](https://github.com/Skythe7).
+Every disaster app tells you where the disaster is — this one tracks the people going *into* it. Join a report, check in on a timer, and the accountability board turns red if you go dark. Reports and check-ins work offline, and the whole thing runs without JavaScript. It parses times with [timefuzz](https://github.com/Londopy/timefuzz) and validates its changelog with [patchnotes](https://github.com/Londopy/patchnotes) — two of my own libraries. Built at Katy Youth Hacks 2026 with [@Skythe7](https://github.com/Skythe7), and it later took **🥉 Bronze — 3rd place in the Software Development track at Reverie Hacks 2026** ([closing ceremony](https://youtu.be/MbCTSaONuOM)).
 
 ---
 
@@ -75,6 +75,9 @@ Every disaster app tells you where the disaster is — this one tracks the peopl
 
 **🎲 [deadpoint](https://github.com/Londopy/deadpoint)** &nbsp;[![downloads](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FLondopy%2FLondopy%2Fmain%2Fbadges%2Fdeadpoint.json&style=flat-square&cacheSeconds=3600)](https://pepy.tech/project/deadpoint) [![PyPI](https://img.shields.io/pypi/v/deadpoint?color=4A7B3E&style=flat-square&logo=pypi&logoColor=white)](https://pypi.org/project/deadpoint/) [![Z3](https://img.shields.io/badge/solver-Z3-7A5C3A?style=flat-square)](https://github.com/Londopy/deadpoint)
 Purple-team RNG analysis. Detects weak PRNG usage, then *proves* it: recovers MT19937 / LCG / xorshift state with a Z3 constraint solve and predicts future and past outputs. Ends with the CSPRNG fix, not just the finding. &nbsp;[writeup »](https://londopy.github.io/projects/deadpoint/)
+
+**🔐 [nxtls](https://github.com/Londopy/nxtls)** &nbsp;[![CI](https://img.shields.io/github/actions/workflow/status/Londopy/nxtls/ci.yml?style=flat-square&label=CI)](https://github.com/Londopy/nxtls/actions/workflows/ci.yml) [![written in Nexium](https://img.shields.io/badge/written_in-Nexium-4FD1C5?style=flat-square)](https://github.com/Londopy/nexium) [![unsafe: 0](https://img.shields.io/badge/unsafe-0-4A7B3E?style=flat-square)](https://github.com/Londopy/nxtls#tests)
+Cryptography and a TLS 1.3 client written entirely in nexium — SHA-2, HMAC, HKDF, Ed25519, X25519, ChaCha20-Poly1305, ECDSA and RSA verification, and X.509 path validation, with no C and no `unsafe`. Checked against the RFC vectors, Python's `cryptography` and OpenSSL 3, and it talks to Discord, GitHub and Cloudflare live. Early: nobody who knows TLS has reviewed it yet, and the README says so first. &nbsp;[writeup »](https://londopy.github.io/projects/nxtls/)
 
 **⏱️ [timefuzz](https://github.com/Londopy/timefuzz)** &nbsp;[![downloads](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FLondopy%2FLondopy%2Fmain%2Fbadges%2Ftimefuzz.json&style=flat-square&cacheSeconds=3600)](https://pepy.tech/project/timefuzz) [![PyPI](https://img.shields.io/pypi/v/timefuzz?color=4A7B3E&style=flat-square&logo=pypi&logoColor=white)](https://pypi.org/project/timefuzz/) [![Rust core](https://img.shields.io/badge/core-Rust-7A5C3A?style=flat-square&logo=rust&logoColor=white)](https://github.com/Londopy/timefuzz)
 Fuzzy natural-language time parsing. Goes where `dateparser` stops: resolves "end of Q3" or "the Tuesday after my birthday" into a datetime or range, with a confidence score so you can decide whether to trust it. &nbsp;[writeup »](https://londopy.github.io/projects/timefuzz/)
@@ -96,6 +99,9 @@ Make a custom file extension a real, recognised file type — on Windows, Linux 
 
 **🌱 [point-of-origin](https://github.com/Londopy/point-of-origin)** &nbsp;[![play on itch.io](https://img.shields.io/badge/▶_play_in_browser-itch.io-D97706?style=flat-square)](https://londopy.itch.io/point-of-origin) [![Unity 6](https://img.shields.io/badge/Unity_6-7A5C3A?style=flat-square&logo=unity&logoColor=white)](https://github.com/Londopy/point-of-origin) [![Odin + Nexium](https://img.shields.io/badge/Odin_%2B_Nexium-4FD1C5?style=flat-square)](https://github.com/Londopy/nexium)
 A side-scrolling platformer where the puzzle *is* the ground. Your lantern shows only the ghost of what grew here, so you run the ruins to learn its shape — then find the cell it started from, plant a seed, and grow it back. A reverse cellular automaton: an Odin simulation DLL, Nexium build tooling, Unity 6. Made for CPGD's World's First Game Jam. &nbsp;[play it »](https://londopy.itch.io/point-of-origin)
+
+**🔗 [the-long-fork](https://github.com/Londopy/the-long-fork)** &nbsp;[![chain depth](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FLondopy%2Fthe-long-fork%2Fmain%2Fbadge.json&style=flat-square)](https://londopy.github.io/the-long-fork/) [![fork the tip](https://img.shields.io/badge/fork-the_current_tip-D97706?style=flat-square)](https://londopy.github.io/the-long-fork/tip/)
+A repo whose only purpose is to be forked, one link at a time, as deep as it'll go. Fork the tip, append one hash-chained line, set one cell of a shared ASCII canvas, pass it on — a GitHub Action walks the fork tree twice a day and publishes the chain. The code does nothing; the chain is the project. &nbsp;[fork the tip »](https://londopy.github.io/the-long-fork/tip/)
 
 ---
 
@@ -168,6 +174,7 @@ mindmap
     Security tooling
       kto
       deadpoint
+      nxtls
     Pre-hospital & clinical
       drugdose
       vitalscore
@@ -190,6 +197,7 @@ mindmap
       timefuzz
       filekind
     Agent tooling
+      agent-skills
       skill-rollcall
       mcp-rollcall
       settings-effective
@@ -202,6 +210,9 @@ mindmap
       convo-generator
     Consumer & games
       ValoTracker
+      statusmith
+      point-of-origin
+      the-long-fork
 ```
 
 <sub>the same domains the <a href="https://londopy.github.io">site</a> groups by — click through there to filter by tag or language</sub>
@@ -281,6 +292,6 @@ londo@dev:~$ contributions --animate
 freshman year. just getting started.
 ```
 
-**[londopy.github.io](https://londopy.github.io)** &nbsp;·&nbsp; discord `_londo`
+**[londopy.github.io](https://londopy.github.io)** &nbsp;·&nbsp; discord `_londo.`
 
 </div>
