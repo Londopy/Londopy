@@ -280,12 +280,12 @@ londo@dev:~$ contributions --animate
 ## 🚚 &nbsp; recently shipped
 
 <!--START_SECTION:releases-->
-- **[nexium](https://github.com/Londopy/nexium)** [`v1.5.0`](https://github.com/Londopy/nexium/releases/tag/v1.5.0) — 11 days ago
-- **[HideDesktopApps](https://github.com/Londopy/HideDesktopApps)** [`v1.2.4`](https://github.com/Londopy/HideDesktopApps/releases/tag/v1.2.4) — 13 days ago
-- **[statusmith](https://github.com/Londopy/statusmith)** [`v0.4.0`](https://github.com/Londopy/statusmith/releases/tag/v0.4.0) — 24 days ago
-- **[point-of-origin](https://github.com/Londopy/point-of-origin)** [`v1.1`](https://github.com/Londopy/point-of-origin/releases/tag/v1.1) — 24 days ago
-- **[git-attribution](https://github.com/Londopy/git-attribution)** [`v1.1.0`](https://github.com/Londopy/git-attribution/releases/tag/v1.1.0) — 24 days ago
-- **[settings-effective](https://github.com/Londopy/settings-effective)** [`v1.1.0`](https://github.com/Londopy/settings-effective/releases/tag/v1.1.0) — 24 days ago
+- **[nexium](https://github.com/Londopy/nexium)** [`v1.5.0`](https://github.com/Londopy/nexium/releases/tag/v1.5.0) — 12 days ago
+- **[HideDesktopApps](https://github.com/Londopy/HideDesktopApps)** [`v1.2.4`](https://github.com/Londopy/HideDesktopApps/releases/tag/v1.2.4) — 14 days ago
+- **[statusmith](https://github.com/Londopy/statusmith)** [`v0.4.0`](https://github.com/Londopy/statusmith/releases/tag/v0.4.0) — 25 days ago
+- **[point-of-origin](https://github.com/Londopy/point-of-origin)** [`v1.1`](https://github.com/Londopy/point-of-origin/releases/tag/v1.1) — 25 days ago
+- **[git-attribution](https://github.com/Londopy/git-attribution)** [`v1.1.0`](https://github.com/Londopy/git-attribution/releases/tag/v1.1.0) — 25 days ago
+- **[settings-effective](https://github.com/Londopy/settings-effective)** [`v1.1.0`](https://github.com/Londopy/settings-effective/releases/tag/v1.1.0) — 25 days ago
 <!--END_SECTION:releases-->
 
 ---
