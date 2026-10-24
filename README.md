@@ -281,8 +281,8 @@ londo@dev:~$ contributions --animate
 
 <!--START_SECTION:releases-->
 - **[EraSwitch](https://github.com/Londopy/EraSwitch)** [`v0.1.1`](https://github.com/Londopy/EraSwitch/releases/tag/v0.1.1) — 2 days ago
-- **[nexium](https://github.com/Londopy/nexium)** [`v1.5.0`](https://github.com/Londopy/nexium/releases/tag/v1.5.0) — 18 days ago
-- **[HideDesktopApps](https://github.com/Londopy/HideDesktopApps)** [`v1.2.4`](https://github.com/Londopy/HideDesktopApps/releases/tag/v1.2.4) — 20 days ago
+- **[nexium](https://github.com/Londopy/nexium)** [`v1.5.0`](https://github.com/Londopy/nexium/releases/tag/v1.5.0) — 19 days ago
+- **[HideDesktopApps](https://github.com/Londopy/HideDesktopApps)** [`v1.2.4`](https://github.com/Londopy/HideDesktopApps/releases/tag/v1.2.4) — 21 days ago
 - **[statusmith](https://github.com/Londopy/statusmith)** [`v0.4.0`](https://github.com/Londopy/statusmith/releases/tag/v0.4.0) — last month
 - **[point-of-origin](https://github.com/Londopy/point-of-origin)** [`v1.1`](https://github.com/Londopy/point-of-origin/releases/tag/v1.1) — last month
 - **[git-attribution](https://github.com/Londopy/git-attribution)** [`v1.1.0`](https://github.com/Londopy/git-attribution/releases/tag/v1.1.0) — last month
