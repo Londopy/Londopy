@@ -6,15 +6,15 @@
 &nbsp;
 <img src="https://img.shields.io/badge/PyPI-10_packages_shipped-4A7B3E?style=flat-square&logo=pypi&logoColor=white"/>
 &nbsp;
-<a href="https://londopy.github.io/api/"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Flondopy.github.io%2Fapi%2Fv1%2Fbadges%2Fcatalog.json&style=flat-square" alt="projects and domains, live from the site's API"/></a>
+<a href="https://londo.me/api/"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Flondo.me%2Fapi%2Fv1%2Fbadges%2Fcatalog.json&style=flat-square" alt="projects and domains, live from the site's API"/></a>
 &nbsp;
 <img src="https://img.shields.io/badge/stack-Python_%2F_Rust-7A5C3A?style=flat-square"/>
 
-### 🌐 &nbsp; [**londopy.github.io**](https://londopy.github.io)
+### 🌐 &nbsp; [**londo.me**](https://londo.me)
 
 *the full, filterable project index — grouped by domain, with per-project writeups — plus a live feed of my open-source pull requests*
 
-### ✍️ &nbsp; [**londopy.github.io/blog**](https://londopy.github.io/blog/)
+### ✍️ &nbsp; [**londo.me/blog**](https://londo.me/blog/)
 
 *notes on security, systems, radio, and building things*
 
@@ -34,7 +34,7 @@ Rust and Python, mostly. Half of it is libraries, half is GUIs, occasionally it'
 >
 > **outside the keyboard** — skiing the sierras · surfing the coast · trad climbing anywhere I can drive to
 
-**reach me →** discord `_londo.` &nbsp;·&nbsp; irc `/msg Londopy` on `irc.libera.chat` &nbsp;·&nbsp; [send a message »](https://londopy.github.io/contact/)
+**reach me →** discord `_londo.` &nbsp;·&nbsp; irc `/msg Londopy` on `irc.libera.chat` &nbsp;·&nbsp; [send a message »](https://londo.me/contact/)
 
 <sub>on irc I stay connected, so a PM reaches me even when I'm away — no account needed, <a href="https://web.libera.chat">web.libera.chat</a> works from a browser.</sub>
 
@@ -42,69 +42,69 @@ Rust and Python, mostly. Half of it is libraries, half is GUIs, occasionally it'
 
 ## 🛠️ &nbsp; featured
 
-> The pieces that show the range. The **[full index of every project lives on the site »](https://londopy.github.io)** — grouped by domain, filterable by tag and language, with writeups.
+> The pieces that show the range. The **[full index of every project lives on the site »](https://londo.me)** — grouped by domain, filterable by tag and language, with writeups.
 
 ### 🖥️ &nbsp; [capture-bypass](https://github.com/Londopy/capture-bypass) — Windows screen-capture bypass
-[![stars](https://img.shields.io/github/stars/Londopy/capture-bypass?style=flat-square&color=D97706&logo=github&logoColor=white)](https://github.com/Londopy/capture-bypass) [![downloads](https://img.shields.io/github/downloads/Londopy/capture-bypass/total?style=flat-square&color=4A7B3E&label=downloads)](https://github.com/Londopy/capture-bypass/releases) [![release](https://img.shields.io/github/v/release/Londopy/capture-bypass?style=flat-square&color=7A5C3A)](https://github.com/Londopy/capture-bypass/releases/latest) [![Rust 1.78+](https://img.shields.io/badge/rust-1.78%2B-7A5C3A?style=flat-square&logo=rust&logoColor=white)](https://github.com/Londopy/capture-bypass) [![Windows 10/11](https://img.shields.io/badge/platform-Windows_10%2F11-4A7B3E?style=flat-square&logo=windows&logoColor=white)](https://github.com/Londopy/capture-bypass) [![writeup »](https://img.shields.io/badge/writeup-%C2%BB-D97706?style=flat-square)](https://londopy.github.io/projects/capture-bypass/)
+[![stars](https://img.shields.io/github/stars/Londopy/capture-bypass?style=flat-square&color=D97706&logo=github&logoColor=white)](https://github.com/Londopy/capture-bypass) [![downloads](https://img.shields.io/github/downloads/Londopy/capture-bypass/total?style=flat-square&color=4A7B3E&label=downloads)](https://github.com/Londopy/capture-bypass/releases) [![release](https://img.shields.io/github/v/release/Londopy/capture-bypass?style=flat-square&color=7A5C3A)](https://github.com/Londopy/capture-bypass/releases/latest) [![Rust 1.78+](https://img.shields.io/badge/rust-1.78%2B-7A5C3A?style=flat-square&logo=rust&logoColor=white)](https://github.com/Londopy/capture-bypass) [![Windows 10/11](https://img.shields.io/badge/platform-Windows_10%2F11-4A7B3E?style=flat-square&logo=windows&logoColor=white)](https://github.com/Londopy/capture-bypass) [![writeup »](https://img.shields.io/badge/writeup-%C2%BB-D97706?style=flat-square)](https://londo.me/projects/capture-bypass/)
 
 Clears `WDA_EXCLUDEFROMCAPTURE` by DLL injection, so windows that opted out of screen capture show up again. Multi-crate Cargo workspace, egui GUI, Inno installer.
 
 ### ⚙️ &nbsp; [nexium](https://github.com/Londopy/nexium) — a programming language of my own
-[![stars](https://img.shields.io/github/stars/Londopy/nexium?style=flat-square&color=D97706&logo=github&logoColor=white)](https://github.com/Londopy/nexium) [![compiler: Zig](https://img.shields.io/badge/compiler-Zig-7A5C3A?style=flat-square&logo=zig&logoColor=white)](https://github.com/Londopy/nexium) [![native via C](https://img.shields.io/badge/native-via_C-4A7B3E?style=flat-square)](https://github.com/Londopy/nexium) [![writeup »](https://img.shields.io/badge/writeup-%C2%BB-D97706?style=flat-square)](https://londopy.github.io/projects/nexium/)
+[![stars](https://img.shields.io/github/stars/Londopy/nexium?style=flat-square&color=D97706&logo=github&logoColor=white)](https://github.com/Londopy/nexium) [![compiler: Zig](https://img.shields.io/badge/compiler-Zig-7A5C3A?style=flat-square&logo=zig&logoColor=white)](https://github.com/Londopy/nexium) [![native via C](https://img.shields.io/badge/native-via_C-4A7B3E?style=flat-square)](https://github.com/Londopy/nexium) [![writeup »](https://img.shields.io/badge/writeup-%C2%BB-D97706?style=flat-square)](https://londo.me/projects/nexium/)
 
 Compiles to native code through C, with automatic reference counting — no tracing collector — and a machine-checked effect system that says whether a function allocates, blocks, or can panic. One source tree ships as a C library, a Python wheel, a Rust crate, or a CLI, all from `nx ship`.
 
 ### 📝 &nbsp; [patchnotes](https://github.com/Londopy/patchnotes) — changelog parser for CI
-[![stars](https://img.shields.io/github/stars/Londopy/patchnotes?style=flat-square&color=D97706&logo=github&logoColor=white)](https://github.com/Londopy/patchnotes) [![downloads](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FLondopy%2FLondopy%2Fmain%2Fbadges%2Fpatchnotes.json&style=flat-square&cacheSeconds=3600)](https://pepy.tech/project/patchnotes) [![PyPI](https://img.shields.io/pypi/v/patchnotes?color=7A5C3A&style=flat-square&logo=pypi&logoColor=white)](https://pypi.org/project/patchnotes/) [![dependencies](https://img.shields.io/badge/dependencies-0-4A7B3E?style=flat-square)](https://github.com/Londopy/patchnotes) [![typed](https://img.shields.io/badge/typed-yes-7A5C3A?style=flat-square)](https://github.com/Londopy/patchnotes) [![writeup »](https://img.shields.io/badge/writeup-%C2%BB-D97706?style=flat-square)](https://londopy.github.io/projects/patchnotes/)
+[![stars](https://img.shields.io/github/stars/Londopy/patchnotes?style=flat-square&color=D97706&logo=github&logoColor=white)](https://github.com/Londopy/patchnotes) [![downloads](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FLondopy%2FLondopy%2Fmain%2Fbadges%2Fpatchnotes.json&style=flat-square&cacheSeconds=3600)](https://pepy.tech/project/patchnotes) [![PyPI](https://img.shields.io/pypi/v/patchnotes?color=7A5C3A&style=flat-square&logo=pypi&logoColor=white)](https://pypi.org/project/patchnotes/) [![dependencies](https://img.shields.io/badge/dependencies-0-4A7B3E?style=flat-square)](https://github.com/Londopy/patchnotes) [![typed](https://img.shields.io/badge/typed-yes-7A5C3A?style=flat-square)](https://github.com/Londopy/patchnotes) [![writeup »](https://img.shields.io/badge/writeup-%C2%BB-D97706?style=flat-square)](https://londo.me/projects/patchnotes/)
 
 Parse, query, and validate Keep a Changelog markdown and YAML — then fail the build when a release note is malformed or missing. Small, boring, and the one people actually installed.
 
 ### 🧗 &nbsp; [ropesim](https://github.com/Londopy/ropesim) — climbing-rope physics engine
-[![downloads](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FLondopy%2FLondopy%2Fmain%2Fbadges%2Fropesim.json&style=flat-square&cacheSeconds=3600)](https://pepy.tech/project/ropesim) [![PyPI](https://img.shields.io/pypi/v/ropesim?color=4A7B3E&style=flat-square&logo=pypi&logoColor=white)](https://pypi.org/project/ropesim/) [![python](https://img.shields.io/pypi/pyversions/ropesim?style=flat-square&color=7A5C3A)](https://pypi.org/project/ropesim/) [![Rust core](https://img.shields.io/badge/core-Rust_via_PyO3-7A5C3A?style=flat-square&logo=rust&logoColor=white)](https://github.com/Londopy/ropesim) [![writeup »](https://img.shields.io/badge/writeup-%C2%BB-D97706?style=flat-square)](https://londopy.github.io/projects/ropesim/)
+[![downloads](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FLondopy%2FLondopy%2Fmain%2Fbadges%2Fropesim.json&style=flat-square&cacheSeconds=3600)](https://pepy.tech/project/ropesim) [![PyPI](https://img.shields.io/pypi/v/ropesim?color=4A7B3E&style=flat-square&logo=pypi&logoColor=white)](https://pypi.org/project/ropesim/) [![python](https://img.shields.io/pypi/pyversions/ropesim?style=flat-square&color=7A5C3A)](https://pypi.org/project/ropesim/) [![Rust core](https://img.shields.io/badge/core-Rust_via_PyO3-7A5C3A?style=flat-square&logo=rust&logoColor=white)](https://github.com/Londopy/ropesim) [![writeup »](https://img.shields.io/badge/writeup-%C2%BB-D97706?style=flat-square)](https://londo.me/projects/ropesim/)
 
 UIAA / EN 892 impact-force modelling. Damped-spring RK4 integrator in Rust, bound to Python through PyO3 / Maturin, wrapped in a CLI and a PySide6 3D GUI — four layers, three languages, one install.
 
 ### 🚨 &nbsp; [DiresQ](https://github.com/Skythe7/DiresQ) — disaster response that tracks the responders
-[![3rd place at Reverie Hacks 2026](https://img.shields.io/badge/%F0%9F%A5%89_3rd_place-Reverie_Hacks_2026-D08A4E?style=flat-square)](https://youtu.be/MbCTSaONuOM) [![live site](https://img.shields.io/badge/live-site-D97706?style=flat-square)](https://skythe7.github.io/DiresQ/) [![tests](https://img.shields.io/badge/tests-606_passing-4A7B3E?style=flat-square)](https://github.com/Skythe7/DiresQ/actions) [![a11y](https://img.shields.io/badge/a11y-WCAG_2.1_AA_audited-7A5C3A?style=flat-square)](https://github.com/Skythe7/DiresQ) [![time parsing: timefuzz](https://img.shields.io/badge/time_parsing-timefuzz-D97706?style=flat-square)](https://github.com/Londopy/timefuzz) [![changelog checked by patchnotes](https://img.shields.io/badge/changelog_checked_by-patchnotes-D97706?style=flat-square)](https://github.com/Londopy/patchnotes) [![writeup »](https://img.shields.io/badge/writeup-%C2%BB-D97706?style=flat-square)](https://londopy.github.io/projects/DiresQ/)
+[![3rd place at Reverie Hacks 2026](https://img.shields.io/badge/%F0%9F%A5%89_3rd_place-Reverie_Hacks_2026-D08A4E?style=flat-square)](https://youtu.be/MbCTSaONuOM) [![live site](https://img.shields.io/badge/live-site-D97706?style=flat-square)](https://skythe7.github.io/DiresQ/) [![tests](https://img.shields.io/badge/tests-606_passing-4A7B3E?style=flat-square)](https://github.com/Skythe7/DiresQ/actions) [![a11y](https://img.shields.io/badge/a11y-WCAG_2.1_AA_audited-7A5C3A?style=flat-square)](https://github.com/Skythe7/DiresQ) [![time parsing: timefuzz](https://img.shields.io/badge/time_parsing-timefuzz-D97706?style=flat-square)](https://github.com/Londopy/timefuzz) [![changelog checked by patchnotes](https://img.shields.io/badge/changelog_checked_by-patchnotes-D97706?style=flat-square)](https://github.com/Londopy/patchnotes) [![writeup »](https://img.shields.io/badge/writeup-%C2%BB-D97706?style=flat-square)](https://londo.me/projects/DiresQ/)
 
-Every disaster app tells you where the disaster is — this one tracks the people going *into* it. Join a report, check in on a timer, and the accountability board turns red if you go dark. Reports and check-ins work offline, and the whole thing runs without JavaScript. It parses times with [timefuzz](https://github.com/Londopy/timefuzz) and validates its changelog with [patchnotes](https://github.com/Londopy/patchnotes) — two of my own libraries. Built at Katy Youth Hacks 2026 with [@Skythe7](https://github.com/Skythe7), and it later took **🥉 Bronze — 3rd place in the Software Development track at Reverie Hacks 2026** ([closing ceremony](https://youtu.be/MbCTSaONuOM)). &nbsp;[the story on the blog »](https://londopy.github.io/blog/posts/diresq/)
+Every disaster app tells you where the disaster is — this one tracks the people going *into* it. Join a report, check in on a timer, and the accountability board turns red if you go dark. Reports and check-ins work offline, and the whole thing runs without JavaScript. It parses times with [timefuzz](https://github.com/Londopy/timefuzz) and validates its changelog with [patchnotes](https://github.com/Londopy/patchnotes) — two of my own libraries. Built at Katy Youth Hacks 2026 with [@Skythe7](https://github.com/Skythe7), and it later took **🥉 Bronze — 3rd place in the Software Development track at Reverie Hacks 2026** ([closing ceremony](https://youtu.be/MbCTSaONuOM)). &nbsp;[the story on the blog »](https://londo.me/blog/posts/diresq/)
 
 ---
 
 #### also worth your time
 
 **🎲 [deadpoint](https://github.com/Londopy/deadpoint)** &nbsp;[![downloads](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FLondopy%2FLondopy%2Fmain%2Fbadges%2Fdeadpoint.json&style=flat-square&cacheSeconds=3600)](https://pepy.tech/project/deadpoint) [![PyPI](https://img.shields.io/pypi/v/deadpoint?color=4A7B3E&style=flat-square&logo=pypi&logoColor=white)](https://pypi.org/project/deadpoint/) [![Z3](https://img.shields.io/badge/solver-Z3-7A5C3A?style=flat-square)](https://github.com/Londopy/deadpoint)
-Purple-team RNG analysis. Detects weak PRNG usage, then *proves* it: recovers MT19937 / LCG / xorshift state with a Z3 constraint solve and predicts future and past outputs. Ends with the CSPRNG fix, not just the finding. &nbsp;[writeup »](https://londopy.github.io/projects/deadpoint/)
+Purple-team RNG analysis. Detects weak PRNG usage, then *proves* it: recovers MT19937 / LCG / xorshift state with a Z3 constraint solve and predicts future and past outputs. Ends with the CSPRNG fix, not just the finding. &nbsp;[writeup »](https://londo.me/projects/deadpoint/)
 
 **🔐 [nxtls](https://github.com/Londopy/nxtls)** &nbsp;[![CI](https://img.shields.io/github/actions/workflow/status/Londopy/nxtls/ci.yml?style=flat-square&label=CI)](https://github.com/Londopy/nxtls/actions/workflows/ci.yml) [![written in Nexium](https://img.shields.io/badge/written_in-Nexium-4FD1C5?style=flat-square)](https://github.com/Londopy/nexium) [![unsafe: 0](https://img.shields.io/badge/unsafe-0-4A7B3E?style=flat-square)](https://github.com/Londopy/nxtls#tests)
-Cryptography and a TLS 1.3 client written entirely in nexium — SHA-2, HMAC, HKDF, Ed25519, X25519, ChaCha20-Poly1305, ECDSA and RSA verification, and X.509 path validation, with no C and no `unsafe`. Checked against the RFC vectors, Python's `cryptography` and OpenSSL 3, and it talks to Discord, GitHub and Cloudflare live. Early: nobody who knows TLS has reviewed it yet, and the README says so first. &nbsp;[writeup »](https://londopy.github.io/projects/nxtls/)
+Cryptography and a TLS 1.3 client written entirely in nexium — SHA-2, HMAC, HKDF, Ed25519, X25519, ChaCha20-Poly1305, ECDSA and RSA verification, and X.509 path validation, with no C and no `unsafe`. Checked against the RFC vectors, Python's `cryptography` and OpenSSL 3, and it talks to Discord, GitHub and Cloudflare live. Early: nobody who knows TLS has reviewed it yet, and the README says so first. &nbsp;[writeup »](https://londo.me/projects/nxtls/)
 
 **🤖 [nexium-discord](https://github.com/Londopy/nexium-discord)** &nbsp;[![CI](https://img.shields.io/github/actions/workflow/status/Londopy/nexium-discord/ci.yml?style=flat-square&label=CI)](https://github.com/Londopy/nexium-discord/actions/workflows/ci.yml) [![written in Nexium](https://img.shields.io/badge/written_in-Nexium-4FD1C5?style=flat-square)](https://github.com/Londopy/nexium) [![tag](https://img.shields.io/github/v/tag/Londopy/nexium-discord?style=flat-square&color=7A5C3A&label=tag)](https://github.com/Londopy/nexium-discord/tags)
-A Discord bot library for nexium: a bot is a loop over `bot.next()`, events come back as values to `match` on, and heartbeats, resumes and rate limits happen inside. Built on nexium 1.4's HTTP and websockets, with TLS from nxtls (or SChannel on Windows); CI on Linux, macOS and Windows. &nbsp;[writeup »](https://londopy.github.io/projects/nexium-discord/)
+A Discord bot library for nexium: a bot is a loop over `bot.next()`, events come back as values to `match` on, and heartbeats, resumes and rate limits happen inside. Built on nexium 1.4's HTTP and websockets, with TLS from nxtls (or SChannel on Windows); CI on Linux, macOS and Windows. &nbsp;[writeup »](https://londo.me/projects/nexium-discord/)
 
 **⏱️ [timefuzz](https://github.com/Londopy/timefuzz)** &nbsp;[![downloads](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FLondopy%2FLondopy%2Fmain%2Fbadges%2Ftimefuzz.json&style=flat-square&cacheSeconds=3600)](https://pepy.tech/project/timefuzz) [![PyPI](https://img.shields.io/pypi/v/timefuzz?color=4A7B3E&style=flat-square&logo=pypi&logoColor=white)](https://pypi.org/project/timefuzz/) [![Rust core](https://img.shields.io/badge/core-Rust-7A5C3A?style=flat-square&logo=rust&logoColor=white)](https://github.com/Londopy/timefuzz)
-Fuzzy natural-language time parsing. Goes where `dateparser` stops: resolves "end of Q3" or "the Tuesday after my birthday" into a datetime or range, with a confidence score so you can decide whether to trust it. &nbsp;[writeup »](https://londopy.github.io/projects/timefuzz/)
+Fuzzy natural-language time parsing. Goes where `dateparser` stops: resolves "end of Q3" or "the Tuesday after my birthday" into a datetime or range, with a confidence score so you can decide whether to trust it. &nbsp;[writeup »](https://londo.me/projects/timefuzz/)
 
 **💊 [drugdose](https://github.com/Londopy/drugdose)** &nbsp;[![PyPI](https://img.shields.io/pypi/v/drugdose?color=4A7B3E&style=flat-square&logo=pypi&logoColor=white)](https://pypi.org/project/drugdose/) [![tests](https://img.shields.io/badge/tests-24_passing-7A5C3A?style=flat-square)](https://github.com/Londopy/drugdose)
-EMS & clinical dosing calculator. Weight-based dosing against a bundled 49-drug database, plus 39 interaction rules with severity and management guidance. Pure Python, zero runtime deps. &nbsp;[writeup »](https://londopy.github.io/projects/drugdose/)
+EMS & clinical dosing calculator. Weight-based dosing against a bundled 49-drug database, plus 39 interaction rules with severity and management guidance. Pure Python, zero runtime deps. &nbsp;[writeup »](https://londo.me/projects/drugdose/)
 
 **🪟 [HideDesktopApps](https://github.com/Londopy/HideDesktopApps)** &nbsp;[![release](https://img.shields.io/github/v/release/Londopy/HideDesktopApps?style=flat-square&color=4A7B3E)](https://github.com/Londopy/HideDesktopApps/releases/latest) [![downloads](https://img.shields.io/github/downloads/Londopy/HideDesktopApps/total?style=flat-square&color=7A5C3A&label=downloads)](https://github.com/Londopy/HideDesktopApps/releases) [![Scoop](https://img.shields.io/badge/scoop-manifest-7A5C3A?style=flat-square)](https://github.com/Londopy/HideDesktopApps/blob/main/scoop/HideDesktopApps.json)
-Tray daemon that hides desktop icons, taskbar, and every window on a hotkey. For ricing, Wallpaper Engine, and not flashing your desktop mid-presentation. Rust-native single binary, installable through Scoop. &nbsp;[writeup »](https://londopy.github.io/projects/HideDesktopApps/)
+Tray daemon that hides desktop icons, taskbar, and every window on a hotkey. For ricing, Wallpaper Engine, and not flashing your desktop mid-presentation. Rust-native single binary, installable through Scoop. &nbsp;[writeup »](https://londo.me/projects/HideDesktopApps/)
 
 **🎹 [gesture-synth](https://github.com/Londopy/gesture-synth)** &nbsp;[![stars](https://img.shields.io/github/stars/Londopy/gesture-synth?style=flat-square&color=D97706&logo=github&logoColor=white)](https://github.com/Londopy/gesture-synth) [![demo](https://img.shields.io/badge/demo-live-D97706?style=flat-square)](https://gesture-synth.onrender.com/) [![5 languages](https://img.shields.io/badge/TS%C2%B7Rust%C2%B7Svelte%C2%B7Gleam%C2%B7Zig-5_languages-7A5C3A?style=flat-square)](https://github.com/Londopy/gesture-synth)
-A chord instrument you play with your hands in front of a camera — MediaPipe hand-tracking drives the synth, a loop pedal layers four tracks, and the harmony is drawn back at you in 3D. One codebase spanning Rust/WASM, Svelte + Three.js, a Tauri app, a Zig DSP kernel, and a Gleam service. &nbsp;[writeup »](https://londopy.github.io/projects/gesture-synth/)
+A chord instrument you play with your hands in front of a camera — MediaPipe hand-tracking drives the synth, a loop pedal layers four tracks, and the harmony is drawn back at you in 3D. One codebase spanning Rust/WASM, Svelte + Three.js, a Tauri app, a Zig DSP kernel, and a Gleam service. &nbsp;[writeup »](https://londo.me/projects/gesture-synth/)
 
 **🏔️ [whumpf](https://github.com/Londopy/whumpf)** &nbsp;[![stars](https://img.shields.io/github/stars/Londopy/whumpf?style=flat-square&color=D97706&logo=github&logoColor=white)](https://github.com/Londopy/whumpf) [![WebGL / GLSL](https://img.shields.io/badge/WebGL-GLSL-7A5C3A?style=flat-square)](https://github.com/Londopy/whumpf)
-Avalanche bulletins projected onto the real mountain in 3D. Slope, aspect, and elevation are packed into RGBA tiles and filtered in a GLSL shader, so a whole range recomputes as you drag a danger slider — answering the question the bulletin doesn't: *is the slope in front of me one of those slopes?* &nbsp;[writeup »](https://londopy.github.io/projects/whumpf/)
+Avalanche bulletins projected onto the real mountain in 3D. Slope, aspect, and elevation are packed into RGBA tiles and filtered in a GLSL shader, so a whole range recomputes as you drag a danger slider — answering the question the bulletin doesn't: *is the slope in front of me one of those slopes?* &nbsp;[writeup »](https://londo.me/projects/whumpf/)
 
 **🗂️ [filekind](https://github.com/Londopy/filekind)** &nbsp;[![stars](https://img.shields.io/github/stars/Londopy/filekind?style=flat-square&color=D97706&logo=github&logoColor=white)](https://github.com/Londopy/filekind) [![Rust](https://img.shields.io/badge/core-Rust-7A5C3A?style=flat-square&logo=rust&logoColor=white)](https://github.com/Londopy/filekind)
-Make a custom file extension a real, recognised file type — on Windows, Linux and macOS — from one declarative spec. Generates the registry tree, freedesktop MIME XML, macOS UTI plist, icons in three formats, and the install/remove scripts. &nbsp;[writeup »](https://londopy.github.io/projects/filekind/)
+Make a custom file extension a real, recognised file type — on Windows, Linux and macOS — from one declarative spec. Generates the registry tree, freedesktop MIME XML, macOS UTI plist, icons in three formats, and the install/remove scripts. &nbsp;[writeup »](https://londo.me/projects/filekind/)
 
 **🌱 [point-of-origin](https://github.com/Londopy/point-of-origin)** &nbsp;[![play on itch.io](https://img.shields.io/badge/▶_play_in_browser-itch.io-D97706?style=flat-square)](https://londopy.itch.io/point-of-origin) [![Unity 6](https://img.shields.io/badge/Unity_6-7A5C3A?style=flat-square&logo=unity&logoColor=white)](https://github.com/Londopy/point-of-origin) [![Odin + Nexium](https://img.shields.io/badge/Odin_%2B_Nexium-4FD1C5?style=flat-square)](https://github.com/Londopy/nexium)
 A side-scrolling platformer where the puzzle *is* the ground. Your lantern shows only the ghost of what grew here, so you run the ruins to learn its shape — then find the cell it started from, plant a seed, and grow it back. A reverse cellular automaton: an Odin simulation DLL, Nexium build tooling, Unity 6. Made for CPGD's World's First Game Jam. &nbsp;[play it »](https://londopy.itch.io/point-of-origin)
 
-**🔗 [the-long-fork](https://github.com/Londopy/the-long-fork)** &nbsp;[![chain depth](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FLondopy%2Fthe-long-fork%2Fmain%2Fbadge.json&style=flat-square)](https://londopy.github.io/the-long-fork/) [![fork the tip](https://img.shields.io/badge/fork-the_current_tip-D97706?style=flat-square)](https://londopy.github.io/the-long-fork/tip/)
-A repo whose only purpose is to be forked, one link at a time, as deep as it'll go. Fork the tip, append one hash-chained line, set one cell of a shared ASCII canvas, pass it on — a GitHub Action walks the fork tree twice a day and publishes the chain. The code does nothing; the chain is the project. &nbsp;[fork the tip »](https://londopy.github.io/the-long-fork/tip/)
+**🔗 [the-long-fork](https://github.com/Londopy/the-long-fork)** &nbsp;[![chain depth](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FLondopy%2Fthe-long-fork%2Fmain%2Fbadge.json&style=flat-square)](https://londo.me/the-long-fork/) [![fork the tip](https://img.shields.io/badge/fork-the_current_tip-D97706?style=flat-square)](https://londo.me/the-long-fork/tip/)
+A repo whose only purpose is to be forked, one link at a time, as deep as it'll go. Fork the tip, append one hash-chained line, set one cell of a shared ASCII canvas, pass it on — a GitHub Action walks the fork tree twice a day and publishes the chain. The code does nothing; the chain is the project. &nbsp;[fork the tip »](https://londo.me/the-long-fork/tip/)
 
 ---
 
@@ -219,7 +219,7 @@ mindmap
       the-long-fork
 ```
 
-<sub>the same domains the <a href="https://londopy.github.io">site</a> groups by — click through there to filter by tag or language</sub>
+<sub>the same domains the <a href="https://londo.me">site</a> groups by — click through there to filter by tag or language</sub>
 
 </details>
 
@@ -238,7 +238,7 @@ mindmap
 | `tidaltable` — outdoors | `hwsig` — systems | `memalloc` — systems |
 | `procwatch` — systems | `OmniSight` — vision | |
 
-<sub>cards appear on the <a href="https://londopy.github.io">site</a> once they ship</sub>
+<sub>cards appear on the <a href="https://londo.me">site</a> once they ship</sub>
 
 </details>
 
@@ -296,6 +296,6 @@ londo@dev:~$ contributions --animate
 freshman year. just getting started.
 ```
 
-**[londopy.github.io](https://londopy.github.io)** &nbsp;·&nbsp; discord `_londo.`
+**[londo.me](https://londo.me)** &nbsp;·&nbsp; discord `_londo.`
 
 </div>
