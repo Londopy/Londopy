@@ -1,9 +1,12 @@
 <div align="center"> 
      
-<a href="https://londo.me"><picture>
+<a href="https://londo.me">
+<picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/header-night.svg">
   <img src="assets/header-day.svg" width="100%" alt="Londopy: a topographic survey sheet of Mount Shasta with five climbing routes to the summit, one per domain (climbing, medicine, systems, security, devtools), two projects on each; bearings fanned apart for clarity">
-</picture></a>
+</picture>
+</a>
+<br>
 <sub>map data © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a> (ODbL) · terrain: 3DEP data courtesy of the U.S. Geological Survey</sub>
 
 ---
