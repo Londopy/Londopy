@@ -23,8 +23,11 @@
 #       Releases are both richer and better evidence of actually shipping.
 #
 #    3. HEADER — scripts/make_header.py redraws assets/header-{day,night}.svg
-#       (the topo survey sheet at the top of the README) with today's stars,
-#       downloads and the site's project counts.
+#       (the Mount Shasta survey sheet at the top of the README) with the
+#       downloads just fetched, and the stars and project counts from the
+#       site's API, which is as of the site's last nightly build. The
+#       mountain itself is baked into scripts/shasta.json, so nothing else
+#       is fetched.
 #
 #  Permissions needed: contents: write. No secrets beyond GITHUB_TOKEN.
 # ============================================================================
@@ -180,8 +183,6 @@ jobs:
       # script itself mustn't hold back the badge and release commit either.
       - name: Redraw the survey-sheet header
         continue-on-error: true
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python3 scripts/make_header.py
 
       - name: Commit & push (rebase-safe)

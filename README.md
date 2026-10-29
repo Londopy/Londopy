@@ -2,8 +2,9 @@
      
 <a href="https://londo.me"><picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/header-night.svg">
-  <img src="assets/header-day.svg" width="100%" alt="Londopy: a topographic survey sheet with a trail through ropesim, deadpoint, patchnotes and capture-bypass up to nexium">
+  <img src="assets/header-day.svg" width="100%" alt="Londopy: a topographic survey sheet of Mount Shasta with five climbing routes to the summit, one per domain (climbing, medicine, systems, security, devtools), two projects on each; bearings fanned apart for clarity">
 </picture></a>
+<sub>map data © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a> (ODbL) · terrain: 3DEP data courtesy of the U.S. Geological Survey</sub>
 
 <img src="https://komarev.com/ghpvc/?username=Londopy&style=flat-square&color=D97706&label=profile+views"/>
 &nbsp;
