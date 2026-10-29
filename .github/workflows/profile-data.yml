@@ -1,8 +1,8 @@
 # ============================================================================
 #  profile-data.yml
 #  ----------------------------------------------------------------------------
-#  Two jobs' worth of work in one pass, because both write to README/badges and
-#  there's no reason to make them race:
+#  Three jobs' worth of work in one pass, because all of them write to
+#  README/badges/assets and there's no reason to make them race:
 #
 #    1. DOWNLOAD BADGES — writes shields.io "endpoint" JSON per PyPI package
 #       into badges/. Embedded with:
@@ -21,6 +21,10 @@
 #       the last 100 public events (it ignores PushEvent, which was 90 of them),
 #       and what it did show came from a repo that isn't featured anywhere.
 #       Releases are both richer and better evidence of actually shipping.
+#
+#    3. HEADER — scripts/make_header.py redraws assets/header-{day,night}.svg
+#       (the topo survey sheet at the top of the README) with today's stars,
+#       downloads and the site's project counts.
 #
 #  Permissions needed: contents: write. No secrets beyond GITHUB_TOKEN.
 # ============================================================================
@@ -170,16 +174,26 @@ jobs:
           print(block)
           PY
 
+      # After the badge step on purpose: the header reads its download numbers
+      # from the badges/ JSON just written. If a source is down it leaves the
+      # last good header alone instead of failing the run, and a bug in the
+      # script itself mustn't hold back the badge and release commit either.
+      - name: Redraw the survey-sheet header
+        continue-on-error: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 scripts/make_header.py
+
       - name: Commit & push (rebase-safe)
         run: |
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config --local user.name  "github-actions[bot]"
-          git add badges/ README.md
+          git add badges/ README.md assets/
           if git diff --staged --quiet; then
             echo "nothing changed — nothing to do"
             exit 0
           fi
-          git commit -m "chore(profile): refresh download badges and releases"
+          git commit -m "chore(profile): refresh download badges, releases and header"
           for i in 1 2 3 4 5; do
             if git pull --rebase --autostash origin main && git push; then
               echo "pushed on attempt $i"
