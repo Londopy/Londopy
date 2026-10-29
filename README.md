@@ -6,6 +6,8 @@
 </picture></a>
 <sub>map data © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a> (ODbL) · terrain: 3DEP data courtesy of the U.S. Geological Survey</sub>
 
+---
+
 <img src="https://komarev.com/ghpvc/?username=Londopy&style=flat-square&color=D97706&label=profile+views"/>
 &nbsp;
 <img src="https://img.shields.io/badge/PyPI-10_packages_shipped-4A7B3E?style=flat-square&logo=pypi&logoColor=white"/>
