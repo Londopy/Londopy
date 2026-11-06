@@ -289,8 +289,8 @@ londo@dev:~$ contributions --animate
 ## 🚚 &nbsp; recently shipped
 
 <!--START_SECTION:releases-->
-- **[canopy](https://github.com/Londopy/canopy)** [`v0.1.0`](https://github.com/Londopy/canopy/releases/tag/v0.1.0) — 6 days ago
-- **[EraSwitch](https://github.com/Londopy/EraSwitch)** [`v0.2.0`](https://github.com/Londopy/EraSwitch/releases/tag/v0.2.0) — 7 days ago
+- **[canopy](https://github.com/Londopy/canopy)** [`v0.1.0`](https://github.com/Londopy/canopy/releases/tag/v0.1.0) — 7 days ago
+- **[EraSwitch](https://github.com/Londopy/EraSwitch)** [`v0.2.0`](https://github.com/Londopy/EraSwitch/releases/tag/v0.2.0) — 8 days ago
 - **[nexium](https://github.com/Londopy/nexium)** [`v1.5.0`](https://github.com/Londopy/nexium/releases/tag/v1.5.0) — last month
 - **[HideDesktopApps](https://github.com/Londopy/HideDesktopApps)** [`v1.2.4`](https://github.com/Londopy/HideDesktopApps/releases/tag/v1.2.4) — last month
 - **[statusmith](https://github.com/Londopy/statusmith)** [`v0.4.0`](https://github.com/Londopy/statusmith/releases/tag/v0.4.0) — last month
