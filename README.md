@@ -289,12 +289,12 @@ londo@dev:~$ contributions --animate
 ## 🚚 &nbsp; recently shipped
 
 <!--START_SECTION:releases-->
-- **[canopy](https://github.com/Londopy/canopy)** [`v0.1.0`](https://github.com/Londopy/canopy/releases/tag/v0.1.0) — 20 days ago
-- **[EraSwitch](https://github.com/Londopy/EraSwitch)** [`v0.2.0`](https://github.com/Londopy/EraSwitch/releases/tag/v0.2.0) — 21 days ago
-- **[nexium](https://github.com/Londopy/nexium)** [`v1.5.0`](https://github.com/Londopy/nexium/releases/tag/v1.5.0) — last month
-- **[HideDesktopApps](https://github.com/Londopy/HideDesktopApps)** [`v1.2.4`](https://github.com/Londopy/HideDesktopApps/releases/tag/v1.2.4) — last month
-- **[statusmith](https://github.com/Londopy/statusmith)** [`v0.4.0`](https://github.com/Londopy/statusmith/releases/tag/v0.4.0) — last month
-- **[point-of-origin](https://github.com/Londopy/point-of-origin)** [`v1.1`](https://github.com/Londopy/point-of-origin/releases/tag/v1.1) — last month
+- **[ridgewarden-health](https://github.com/Londopy/ridgewarden-health)** [`v0.1.0`](https://github.com/Londopy/ridgewarden-health/releases/tag/v0.1.0) — today
+- **[ridgewarden-weather](https://github.com/Londopy/ridgewarden-weather)** [`v0.1.0`](https://github.com/Londopy/ridgewarden-weather/releases/tag/v0.1.0) — today
+- **[ridgewarden-planner](https://github.com/Londopy/ridgewarden-planner)** [`v0.1.0`](https://github.com/Londopy/ridgewarden-planner/releases/tag/v0.1.0) — today
+- **[ridgewarden-status](https://github.com/Londopy/ridgewarden-status)** [`v0.1.0`](https://github.com/Londopy/ridgewarden-status/releases/tag/v0.1.0) — today
+- **[ridgewarden-sdr](https://github.com/Londopy/ridgewarden-sdr)** [`v0.1.0`](https://github.com/Londopy/ridgewarden-sdr/releases/tag/v0.1.0) — today
+- **[ridgewarden-lightning](https://github.com/Londopy/ridgewarden-lightning)** [`v0.1.0`](https://github.com/Londopy/ridgewarden-lightning/releases/tag/v0.1.0) — today
 <!--END_SECTION:releases-->
 
 ---
