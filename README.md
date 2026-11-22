@@ -289,12 +289,12 @@ londo@dev:~$ contributions --animate
 ## 🚚 &nbsp; recently shipped
 
 <!--START_SECTION:releases-->
-- **[ridgewarden-health](https://github.com/Londopy/ridgewarden-health)** [`v0.1.0`](https://github.com/Londopy/ridgewarden-health/releases/tag/v0.1.0) — yesterday
-- **[ridgewarden-weather](https://github.com/Londopy/ridgewarden-weather)** [`v0.1.0`](https://github.com/Londopy/ridgewarden-weather/releases/tag/v0.1.0) — yesterday
-- **[ridgewarden-planner](https://github.com/Londopy/ridgewarden-planner)** [`v0.1.0`](https://github.com/Londopy/ridgewarden-planner/releases/tag/v0.1.0) — yesterday
-- **[ridgewarden-status](https://github.com/Londopy/ridgewarden-status)** [`v0.1.0`](https://github.com/Londopy/ridgewarden-status/releases/tag/v0.1.0) — yesterday
-- **[ridgewarden-sdr](https://github.com/Londopy/ridgewarden-sdr)** [`v0.1.0`](https://github.com/Londopy/ridgewarden-sdr/releases/tag/v0.1.0) — yesterday
-- **[ridgewarden-lightning](https://github.com/Londopy/ridgewarden-lightning)** [`v0.1.0`](https://github.com/Londopy/ridgewarden-lightning/releases/tag/v0.1.0) — yesterday
+- **[ridgewarden-health](https://github.com/Londopy/ridgewarden-health)** [`v0.1.0`](https://github.com/Londopy/ridgewarden-health/releases/tag/v0.1.0) — 2 days ago
+- **[ridgewarden-weather](https://github.com/Londopy/ridgewarden-weather)** [`v0.1.0`](https://github.com/Londopy/ridgewarden-weather/releases/tag/v0.1.0) — 2 days ago
+- **[ridgewarden-planner](https://github.com/Londopy/ridgewarden-planner)** [`v0.1.0`](https://github.com/Londopy/ridgewarden-planner/releases/tag/v0.1.0) — 2 days ago
+- **[ridgewarden-status](https://github.com/Londopy/ridgewarden-status)** [`v0.1.0`](https://github.com/Londopy/ridgewarden-status/releases/tag/v0.1.0) — 2 days ago
+- **[ridgewarden-sdr](https://github.com/Londopy/ridgewarden-sdr)** [`v0.1.0`](https://github.com/Londopy/ridgewarden-sdr/releases/tag/v0.1.0) — 2 days ago
+- **[ridgewarden-lightning](https://github.com/Londopy/ridgewarden-lightning)** [`v0.1.0`](https://github.com/Londopy/ridgewarden-lightning/releases/tag/v0.1.0) — 2 days ago
 <!--END_SECTION:releases-->
 
 ---
