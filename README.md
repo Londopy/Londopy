@@ -289,12 +289,12 @@ londo@dev:~$ contributions --animate
 ## 🚚 &nbsp; recently shipped
 
 <!--START_SECTION:releases-->
-- **[ridgewarden-radar](https://github.com/Londopy/ridgewarden-radar)** [`v0.2.0`](https://github.com/Londopy/ridgewarden-radar/releases/tag/v0.2.0) — yesterday
-- **[ridgewarden](https://github.com/Londopy/ridgewarden)** [`v0.2.0`](https://github.com/Londopy/ridgewarden/releases/tag/v0.2.0) — yesterday
-- **[sitemon](https://github.com/Londopy/sitemon)** [`v0.5.1`](https://github.com/Londopy/sitemon/releases/tag/v0.5.1) — yesterday
-- **[undervoice](https://github.com/Londopy/undervoice)** [`v0.6.0`](https://github.com/Londopy/undervoice/releases/tag/v0.6.0) — yesterday
-- **[wsprpool](https://github.com/Londopy/wsprpool)** [`v0.3.0`](https://github.com/Londopy/wsprpool/releases/tag/v0.3.0) — yesterday
-- **[b2trace](https://github.com/Londopy/b2trace)** [`v0.4.0`](https://github.com/Londopy/b2trace/releases/tag/v0.4.0) — yesterday
+- **[ridgewarden-radar](https://github.com/Londopy/ridgewarden-radar)** [`v0.2.0`](https://github.com/Londopy/ridgewarden-radar/releases/tag/v0.2.0) — 2 days ago
+- **[ridgewarden](https://github.com/Londopy/ridgewarden)** [`v0.2.0`](https://github.com/Londopy/ridgewarden/releases/tag/v0.2.0) — 2 days ago
+- **[sitemon](https://github.com/Londopy/sitemon)** [`v0.5.1`](https://github.com/Londopy/sitemon/releases/tag/v0.5.1) — 2 days ago
+- **[undervoice](https://github.com/Londopy/undervoice)** [`v0.6.0`](https://github.com/Londopy/undervoice/releases/tag/v0.6.0) — 2 days ago
+- **[wsprpool](https://github.com/Londopy/wsprpool)** [`v0.3.0`](https://github.com/Londopy/wsprpool/releases/tag/v0.3.0) — 2 days ago
+- **[b2trace](https://github.com/Londopy/b2trace)** [`v0.4.0`](https://github.com/Londopy/b2trace/releases/tag/v0.4.0) — 2 days ago
 <!--END_SECTION:releases-->
 
 ---
